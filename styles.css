@@ -73,7 +73,7 @@ section {
 }
 
 section:hover {
-    transform: translateY(-5px);
+    transform: translateY(-30px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }
 
@@ -126,13 +126,17 @@ footer a {
     font-size: 1.1em;
     margin-left: 5px;
 }
-
+.experience-item {
+    padding: 10px 0px 10px 0px;
+}
+.about-text {
+    padding-top: 12px;
+}
 /* Updated Contact Section Email Link */
 #contact a {
     color: #ffffff; /* Blueish color for email */
     background-color: rgba(255, 255, 255, 0.1); /* Light background */
     padding: 5px 10px;
-    
     border-radius: 5px;
 }
 #contact p {
@@ -145,16 +149,14 @@ footer a {
 
 /* Skill Badges */
 .badges-container {
-    display: flex;
-    flex-wrap:unset;
     justify-content: space-around; /* Adjust alignment as needed */
     padding: 10px; /* Add padding around badges */
 }
 
 .badges-container img {
-    width: 200px; /* Adjust badge size */
+    width: 120; /* Adjust badge size */
     height: auto; /* Maintain aspect ratio */
-    margin: 10px; /* Adjust margin between badges */
+    margin: 5px; /* Adjust margin between badges */
     max-width: 100%; /* Ensure badges don't exceed container width */
 }
 
