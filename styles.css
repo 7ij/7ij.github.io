@@ -1,0 +1,171 @@
+/* Reset and base styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2c273e;
+    color: #ffffff;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(to right, #6c5b7b, #c06c84);
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+    border-bottom: 3px solid #4f3a55;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav {
+    background: #4f3a55;
+    color: white;
+    padding: 0.5em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: 40px 0;
+    padding: 30px;
+    background-color: #433d57;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+section h2 {
+    margin-top: 0;
+    color: #ffffff;
+    font-size: 1.5em;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 0.3em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+ul, .skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li, .skills-list li {
+    margin: 10px 0;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+ul li img, .skills-list li img {
+    width: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #4f3a55;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-left: 5px;
+}
+
+/* Updated Contact Section Email Link */
+#contact a {
+    color: #ffffff; /* Blueish color for email */
+    background-color: rgba(255, 255, 255, 0.1); /* Light background */
+    padding: 5px 10px;
+    
+    border-radius: 5px;
+}
+#contact p {
+    padding-top: 10px;
+}
+#contact a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly darker on hover */
+}
+ 
+
+/* Skill Badges */
+.badges-container {
+    display: flex;
+    flex-wrap:unset;
+    justify-content: space-around; /* Adjust alignment as needed */
+    padding: 10px; /* Add padding around badges */
+}
+
+.badges-container img {
+    width: 200px; /* Adjust badge size */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Adjust margin between badges */
+    max-width: 100%; /* Ensure badges don't exceed container width */
+}
+
+@media (max-width: 768px) {
+    .badges-container svg {
+        width: 120px; /* Adjust size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .badges-container svg {
+        width: 100px; /* Further adjust size for mobile screens */
+    }
+}
