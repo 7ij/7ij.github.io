@@ -153,25 +153,14 @@ footer a {
 
 /* Skill Badges */
 .badges-container {
-    justify-content: space-around; /* Adjust alignment as needed */
-    padding: 10px; /* Add padding around badges */
+    margin-top:20px;
+    margin-left: 0px;
 }
 
 .badges-container img {
-    width: 120; /* Adjust badge size */
-    height: auto; /* Maintain aspect ratio */
-    margin: 5px; /* Adjust margin between badges */
-    max-width: 100%; /* Ensure badges don't exceed container width */
+    width: 150px; 
+    height: auto; 
+    margin-right: 15px;
+    max-width: 100%; 
 }
 
-@media (max-width: 768px) {
-    .badges-container svg {
-        width: 120px; /* Adjust size for smaller screens */
-    }
-}
-
-@media (max-width: 480px) {
-    .badges-container svg {
-        width: 100px; /* Further adjust size for mobile screens */
-    }
-}
