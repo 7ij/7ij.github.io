@@ -149,8 +149,64 @@ footer a {
 #contact a:hover {
     background-color: rgba(255, 255, 255, 0.2); /* Slightly darker on hover */
 }
- 
 
+/* Portfolio Section Styles */
+.portfolio-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 0px;
+    margin-top:20px;
+    border: 2px solid #433d57;
+    border-radius: 8px;
+    max-height: 450px; 
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
+    white-space: nowrap;
+}
+
+.portfolio-item {
+    background-color: #4f3a55;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    flex: 0 0 300px; /* Adjust the width of each item */
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.portfolio-item p {
+    margin: 0;
+    font-size: 1em;
+    color: #ffffff;
+}
+/* Custom Scrollbar Styles */
+.portfolio-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.portfolio-container::-webkit-scrollbar-thumb {
+    background: #6c5b7b;
+    border-radius: 4px;
+}
+
+.portfolio-container::-webkit-scrollbar-thumb:hover {
+    background: #c06c84;
+}
+
+.portfolio-container::-webkit-scrollbar-track {
+    background: #2c273e;
+    border-radius: 4px;
+}
 /* Skill Badges */
 .badges-container {
     margin-top:20px;
