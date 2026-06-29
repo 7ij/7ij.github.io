@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Md. Ashiqur Rahman Naeem</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/70688154?v=4" type="image/x-icon">
+    <style>
+        .blog-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .blog-item {
+            background-color: #4f3a55;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+        .blog-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+        .blog-item h3 {
+            margin-bottom: 10px;
+            font-size: 1.5em;
+            color: #ffffff;
+        }
+        .blog-item p {
+            color: #dddddd;
+            margin-bottom: 15px;
+        }
+        .blog-item a {
+            color: #c06c84;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.9em;
+        }
+        .blog-item a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Blog <span class="emoji emoji-writing_hand"></span></h1>
+            <p>Thoughts, tutorials, and experiences</p>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blogs/">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <section id="blogs">
+            <h2>All Posts</h2>
+            <div class="blog-list">
+                <div class="blog-item">
+                    <h3>My First Blog Post</h3>
+                    <p>This is a sample blog post to demonstrate the new static publishing pipeline.</p>
+                    <a href="/blogs/my-first-post/">Read More &rarr;</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Md. Ashiqur Rahman Naeem. All rights reserved. <span class="emoji emoji-clipboard"></span></p>
+        </div>
+    </footer>
+</body>
+
+</html>
