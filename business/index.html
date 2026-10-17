@@ -35,11 +35,14 @@
 
       <nav class="nav-menu" id="navMenu">
         <ul class="nav-links">
+          <li><a href="#" class="nav-link">Home</a></li>
           <li><a href="#services" class="nav-link">Services</a></li>
-          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#portfolio" class="nav-link">Work History</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
           <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
-        <a href="#contact" class="btn btn-nav">Let's Talk</a>
+        <a href="#contact" class="btn btn-nav">Start Now</a>
       </nav>
     </div>
   </header>
@@ -47,33 +50,106 @@
   <main>
     <!-- Hero Section -->
     <section class="hero-section">
+      <!-- Decorative background glow -->
+      <div class="hero-bg-blobs" aria-hidden="true">
+        <div class="blob blob-left"></div>
+        <div class="blob blob-right"></div>
+      </div>
+
       <div class="container hero-container">
-        <div class="hero-badge">Custom Software Solutions</div>
-        <h1 class="hero-title">Custom Websites &amp; Mobile Apps to Grow Your Business</h1>
-        <p class="hero-subtitle">
-          I help business owners automate operations, streamline bookings, and build scalable digital platforms.
-        </p>
-        <div class="hero-actions">
-          <a href="#contact" class="btn btn-primary">Request a Free Consultation</a>
-          <a href="#portfolio" class="btn btn-outline">Explore Case Studies</a>
+        <!-- Hero Copy & Actions (Centered OneIELTS style) -->
+        <div class="hero-content">
+          <h1 class="hero-title">Custom Websites, Mobile Apps &amp; Smart Automations to Scale Your Business</h1>
+          <p class="hero-subtitle">
+            From high-converting web and mobile apps to e-commerce, custom IoT systems, and automated workflows. Engineered to streamline operations and accelerate revenue.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">
+              <span>Tell Me Your Needs</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#portfolio" class="btn btn-outline">Explore</a>
+          </div>
+
+          <!-- Social Proof (Reviewers & Star Rating) -->
+          <div class="hero-social-proof">
+            <div class="avatar-stack" aria-hidden="true">
+              <span class="avatar avatar-1">AN</span>
+              <span class="avatar avatar-2">MR</span>
+              <span class="avatar avatar-3">SL</span>
+            </div>
+            <div class="rating-info">
+              <div class="rating-stars">
+                <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <span class="rating-number">4.9</span>
+              </div>
+              <span class="rating-count">From 26+ business reviews</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Feature / Highlight Strip (Full-width OneIELTS shaded bar) -->
+      <div class="hero-highlights-strip">
+        <div class="container">
+          <div class="hero-highlights-grid">
+            <div class="highlight-item">
+              <div class="highlight-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+              </div>
+              <div class="highlight-text">
+                <h4 class="highlight-title">26+ Projects Launched</h4>
+                <p class="highlight-desc">Successfully deployed into live production for my valuable clients</p>
+              </div>
+            </div>
+
+            <div class="highlight-item">
+              <div class="highlight-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                  <polyline points="2 17 12 22 22 17"></polyline>
+                  <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+              </div>
+              <div class="highlight-text">
+                <h4 class="highlight-title">100% Custom Built</h4>
+                <p class="highlight-desc">Designed around your unique business process</p>
+              </div>
+            </div>
+
+            <div class="highlight-item">
+              <div class="highlight-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <div class="highlight-text">
+                <h4 class="highlight-title">24/7 Support</h4>
+                <p class="highlight-desc">Always-available assistance before &amp; after launch</p>
+              </div>
+            </div>
+
+            <div class="highlight-item">
+              <div class="highlight-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+              </div>
+              <div class="highlight-text">
+                <h4 class="highlight-title">Direct Senior Engineer</h4>
+                <p class="highlight-desc">No middlemen, just clear communication</p>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="trust-metrics">
-          <div class="metric-item">
-            <span class="metric-value">26+</span>
-            <span class="metric-label">Customers Served</span>
-          </div>
-          <div class="metric-divider"></div>
-          <div class="metric-item">
-            <span class="metric-value">24/7</span>
-            <span class="metric-label">Automated Workflows</span>
-          </div>
-          <div class="metric-divider"></div>
-          <div class="metric-item">
-            <span class="metric-value">100%</span>
-            <span class="metric-label">Tailored Solutions</span>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -81,145 +157,1833 @@
     <section id="services" class="section services-section">
       <div class="container">
         <div class="section-header">
-          <p class="section-tag">Business-First Engineering</p>
-          <h2 class="section-title">Built Around How Your Business Operates</h2>
+          <p class="section-tag">Offered Services</p>
+          <h2 class="section-title">Everything Your Business Needs to Grow, Automate &amp; Sell Online</h2>
           <p class="section-desc">
-            No bloated tech or confusing buzzwords. Just practical, high-impact digital tools designed to drive revenue and save hours every week.
+            From modern websites and customer mobile apps to e-commerce, custom IoT, and smart workflow automations. Get dependable technical execution tailored to your operations.
           </p>
         </div>
 
-        <div class="cards-grid services-grid">
-          <!-- Service 1 -->
-          <article class="feature-card">
-            <div class="card-icon" aria-hidden="true">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                <line x1="16" y1="2" x2="16" y2="6"></line>
-                <line x1="8" y1="2" x2="8" y2="6"></line>
-                <line x1="3" y1="10" x2="21" y2="10"></line>
-                <path d="m9 16 2 2 4-4"></path>
+        <!-- Interactive Services Carousel Showcase -->
+        <div class="services-carousel-wrapper" id="servicesCarousel">
+          <!-- Main Carousel Viewport -->
+          <div class="services-carousel-stage">
+            <!-- Navigation arrows -->
+            <button class="carousel-arrow prev" id="servicesCarouselPrev" aria-label="Previous service">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="15 18 9 12 15 6"></polyline>
               </svg>
-            </div>
-            <h3 class="card-title">Automated Booking Systems</h3>
-            <p class="card-text">
-              Stop managing appointments by text. I build systems that let your clients book 24/7.
-            </p>
-            <div class="card-benefit">
-              <span class="check-icon">&#10003;</span> Eliminates double bookings &amp; manual back-and-forth
-            </div>
-          </article>
+            </button>
+            <button class="carousel-arrow next" id="servicesCarouselNext" aria-label="Next service">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
 
-          <!-- Service 2 -->
-          <article class="feature-card">
-            <div class="card-icon" aria-hidden="true">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="8" cy="21" r="1"></circle>
-                <circle cx="19" cy="21" r="1"></circle>
-                <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path>
-              </svg>
-            </div>
-            <h3 class="card-title">Custom E-Commerce Apps</h3>
-            <p class="card-text">
-              Sell your products directly through a customized mobile app tailored to your brand.
-            </p>
-            <div class="card-benefit">
-              <span class="check-icon">&#10003;</span> Seamless checkout &amp; direct mobile engagement
-            </div>
-          </article>
+            <!-- Slides Track -->
+            <div class="services-slides-track" id="servicesSlidesTrack">
 
-          <!-- Service 3 -->
-          <article class="feature-card">
-            <div class="card-icon" aria-hidden="true">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-              </svg>
+              <!-- Slide 1: Custom Mobile App -->
+              <article class="service-slide active" data-index="0">
+                <div class="service-slide-inner">
+                  <!-- Left: Descriptive Visual Mockup -->
+                  <div class="service-slide-visual theme-mobile">
+                    <div class="visual-header-badge">
+                      <span class="pulse-indicator"></span>
+                      <span>Native &amp; Cross-Platform (iOS &amp; Android)</span>
+                    </div>
+
+                    <div class="mock-device-phone">
+                      <div class="phone-notch"></div>
+                      <div class="phone-screen">
+                        <div class="phone-app-bar">
+                          <div class="phone-avatar"></div>
+                          <div class="phone-app-meta">
+                            <span class="phone-brand-title">YourBrand App</span>
+                            <span class="phone-status-dot">Online • Ready</span>
+                          </div>
+                          <div class="phone-action-icon">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+                          </div>
+                        </div>
+
+                        <div class="phone-content-card">
+                          <span class="card-chip">Instant Booking &amp; Push</span>
+                          <h4>One-Touch Appointments</h4>
+                          <p>Clients book slots, re-schedule &amp; pay seamlessly.</p>
+                          <div class="phone-progress-row">
+                            <span class="phone-pill">Apple Pay</span>
+                            <span class="phone-pill">Google Pay</span>
+                            <span class="phone-pill">Stripe</span>
+                          </div>
+                        </div>
+
+                        <div class="phone-metrics-grid">
+                          <div class="metric-mini">
+                            <span class="metric-num">99.9%</span>
+                            <span class="metric-lbl">Uptime</span>
+                          </div>
+                          <div class="metric-mini">
+                            <span class="metric-num">&lt;100ms</span>
+                            <span class="metric-lbl">Latency</span>
+                          </div>
+                          <div class="metric-mini highlight">
+                            <span class="metric-num">4.9★</span>
+                            <span class="metric-lbl">Rating</span>
+                          </div>
+                        </div>
+
+                        <div class="phone-bottom-nav">
+                          <span class="nav-dash active"></span>
+                          <span class="nav-dash"></span>
+                          <span class="nav-dash"></span>
+                          <span class="nav-dash"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Right: Textual Description -->
+                  <div class="service-slide-content">
+                    <span class="service-category-tag">01 / Mobile Solutions</span>
+                    <h3 class="service-slide-title">Custom Mobile Apps That Retain Customers &amp; Drive Direct Sales</h3>
+                    <p class="service-slide-summary">
+                      Put your business right into your customers' pockets. We build sleek, native-feel iOS and Android mobile applications tailored to your exact business workflow.
+                    </p>
+
+                    <ul class="service-feature-checklist">
+                      <li>
+                        <span class="feature-icon">&#10003;</span>
+                        <div>
+                          <strong>Frictionless Client Experience:</strong> Fast booking, member portal, loyalty points, and direct messaging without app crashes.
+                        </div>
+                      </li>
+                      <li>
+                        <span class="feature-icon">&#10003;</span>
+                        <div>
+                          <strong>Higher Retention via Push Notifications:</strong> Re-engage clients automatically for appointments, new arrivals, and special promotions.
+                        </div>
+                      </li>
+                      <li>
+                        <span class="feature-icon">&#10003;</span>
+                        <div>
+                          <strong>Seamless Payment Integration:</strong> Instant, 1-click checkout with Apple Pay, Google Pay, and Stripe.
+                        </div>
+                      </li>
+                    </ul>
+
+                    <div class="service-slide-footer">
+                      <div class="service-tech-badges">
+                        <span>Flutter</span>
+                        <span>React Native</span>
+                        <span>iOS &amp; Android</span>
+                        <span>Firebase</span>
+                      </div>
+                      <a href="#contact" class="btn btn-primary btn-service-cta">
+                        <span>Discuss Your App Idea</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Slide 2: Custom Website -->
+              <article class="service-slide" data-index="1">
+                <div class="service-slide-inner">
+                  <!-- Left: Descriptive Visual Mockup -->
+                  <div class="service-slide-visual theme-web">
+                    <div class="visual-header-badge">
+                      <span class="pulse-indicator"></span>
+                      <span>High-Performance • SEO &amp; Speed Optimized</span>
+                    </div>
+
+                    <div class="mock-device-browser">
+                      <div class="browser-chrome">
+                        <div class="browser-dots">
+                          <span class="b-dot red"></span>
+                          <span class="b-dot yellow"></span>
+                          <span class="b-dot green"></span>
+                        </div>
+                        <div class="browser-url">https://yourbusiness.com/book</div>
+                      </div>
+                      <div class="browser-viewport">
+                        <div class="browser-hero-banner">
+                          <div class="b-tag">Top-Rated Local Business</div>
+                          <h4 class="b-h1">Premium Service Tailored For Your Needs</h4>
+                          <div class="b-btn-row">
+                            <span class="b-btn primary">Book Service</span>
+                            <span class="b-btn outline">Call Now</span>
+                          </div>
+                        </div>
+
+                        <div class="browser-cards-row">
+                          <div class="b-mini-card">
+                            <div class="b-card-ico ico-fast"></div>
+                            <h5>Sub-Second Speed</h5>
+                            <p>99+ Google Lighthouse score for instant client access.</p>
+                          </div>
+                          <div class="b-mini-card">
+                            <div class="b-card-ico ico-seo"></div>
+                            <h5>Local SEO Dominance</h5>
+                            <p>Rank high in your local city and target tier-1 markets.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Right: Textual Description -->
+                  <div class="service-slide-content">
+                    <span class="service-category-tag">02 / Web Architecture</span>
+                    <h3 class="service-slide-title">High-Converting Websites Engineered For Speed &amp; Trust</h3>
+                    <p class="service-slide-summary">
+                      Your website shouldn't just look pretty—it must turn visitors into paying customers. We build lightning-fast, conversion-focused websites engineered around your brand's unique edge.
+                    </p>
+
+                    <ul class="service-feature-checklist">
+                      <li>
+                        <span class="feature-icon">&#10003;</span>
+                        <div>
+                          <strong>Blazing Fast Loading (&lt;1 Second):</strong> Modern static &amp; serverless architectures that pass Google Core Web Vitals with flying colors.
+                        </div>
+                      </li>
+                      <li>
+                        <span class="feature-icon">&#10003;</span>
+                        <div>
+                          <strong>Built-In Conversion Architecture:</strong> Strategic intake forms, WhatsApp direct routing, and clear call-to-actions that boost inquiries.
+                        </div>
+                      </li>
+                      <li>
+                        <span class="feature-icon">&#10003;</span>
+                        <div>
+                          <strong>Zero Bloat, Full Ownership:</strong> Clean code that doesn't break every time WordPress or a plugin updates. You own 100% of your platform.
+                        </div>
+                      </li>
+                    </ul>
+
+                    <div class="service-slide-footer">
+                      <div class="service-tech-badges">
+                        <span>Next.js / React</span>
+                        <span>Tailwind CSS</span>
+                        <span>Headless CMS</span>
+                        <span>Vercel / Cloudflare</span>
+                      </div>
+                      <a href="#contact" class="btn btn-primary btn-service-cta">
+                        <span>Upgrade Your Website</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Slide 3: E-Commerce Solution -->
+              <article class="service-slide" data-index="2">
+                <div class="service-slide-inner">
+                  <!-- Left: Descriptive Visual Mockup -->
+                  <div class="service-slide-visual theme-ecommerce">
+                    <div class="visual-header-badge">
+                      <span class="pulse-indicator"></span>
+                      <span>High-Conversion Checkout &amp; Multi-Channel Sales</span>
+                    </div>
+
+                    <div class="mock-device-ecom">
+                      <div class="ecom-dashboard-top">
+                        <div class="ecom-stat-box">
+                          <span class="ecom-stat-label">Today's Revenue</span>
+                          <span class="ecom-stat-value">$4,892.50</span>
+                          <span class="ecom-badge positive">+18.4% vs last week</span>
+                        </div>
+                        <div class="ecom-stat-box">
+                          <span class="ecom-stat-label">Checkout Conversion</span>
+                          <span class="ecom-stat-value">4.2%</span>
+                          <span class="ecom-badge">Industry avg: 1.8%</span>
+                        </div>
+                      </div>
+
+                      <div class="ecom-orders-stream">
+                        <div class="stream-item">
+                          <div class="stream-badge success">PAID</div>
+                          <div class="stream-details">
+                            <strong>Order #2049 — Standard Kit</strong>
+                            <span>Stripe Auto-Captured • Customer alerted via SMS</span>
+                          </div>
+                          <span class="stream-amount">+$149.00</span>
+                        </div>
+                        <div class="stream-item">
+                          <div class="stream-badge success">PAID</div>
+                          <div class="stream-details">
+                            <strong>Order #2050 — Annual Membership</strong>
+                            <span>Recurring Billing Synced to QuickBooks</span>
+                          </div>
+                          <span class="stream-amount">+$580.00</span>
+                        </div>
+                      </div>
+
+                      <div class="ecom-features-strip">
+                        <span>&#10003; Automated Tax Calc</span>
+                        <span>&#10003; Real-time Stock Sync</span>
+                        <span>&#10003; Abandoned Cart Recovery</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Right: Textual Description -->
+                  <div class="service-slide-content">
+                    <span class="service-category-tag">03 / E-Commerce Systems</span>
+                    <h3 class="service-slide-title">End-to-End E-Commerce That Scales Seamlessly</h3>
+                    <p class="service-slide-summary">
+                      Take your store beyond generic cookie-cutter templates. Custom e-commerce solutions crafted with zero checkout drop-offs, automated inventory, and split payment processing.
+                    </p>
+
+                    <ul class="service-feature-checklist">
+                      <li>
+                        <span class="feature-icon">&#10003;</span>
+                        <div>
+                          <strong>Frictionless Multi-Currency Checkout:</strong> Accept payments via Stripe, PayPal, Klarna, Apple Pay with automatic localized sales tax calculations.
+                        </div>
+                      </li>
+                      <li>
+                        <span class="feature-icon">&#10003;</span>
+                        <div>
+                          <strong>Real-Time Inventory &amp; Shipping Automation:</strong> Sync products across physical warehouses, online shops, and 3PL carriers automatically.
+                        </div>
+                      </li>
+                      <li>
+                        <span class="feature-icon">&#10003;</span>
+                        <div>
+                          <strong>Custom Product Configurators &amp; Subscriptions:</strong> Let customers customize orders or sign up for recurring weekly/monthly repeat revenue.
+                        </div>
+                      </li>
+                    </ul>
+
+                    <div class="service-slide-footer">
+                      <div class="service-tech-badges">
+                        <span>Shopify Plus / Headless</span>
+                        <span>Stripe Connect</span>
+                        <span>WooCommerce</span>
+                        <span>ShipStation Sync</span>
+                      </div>
+                      <a href="#contact" class="btn btn-primary btn-service-cta">
+                        <span>Launch Your Online Store</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Slide 4: IoT System -->
+              <article class="service-slide" data-index="3">
+                <div class="service-slide-inner">
+                  <!-- Left: Descriptive Visual Mockup -->
+                  <div class="service-slide-visual theme-iot">
+                    <div class="visual-header-badge">
+                      <span class="pulse-indicator"></span>
+                      <span>Hardware Integration • Telemetry &amp; Remote Control</span>
+                    </div>
+
+                    <div class="mock-device-iot">
+                      <div class="iot-gateway-bar">
+                        <div class="iot-sensor-badge">
+                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
+                          <span>ESP32 / Edge Controller</span>
+                        </div>
+                        <span class="iot-live-pulse">Connected • 120ms ping</span>
+                      </div>
+
+                      <div class="iot-telemetry-grid">
+                        <div class="telemetry-card">
+                          <div class="t-label">Active Sensors</div>
+                          <div class="t-value">12 / 12 Online</div>
+                          <div class="t-bar"><span style="width: 100%"></span></div>
+                        </div>
+                        <div class="telemetry-card">
+                          <div class="t-label">Telemetry Rate</div>
+                          <div class="t-value">50 msg/sec</div>
+                          <div class="t-bar"><span style="width: 75%"></span></div>
+                        </div>
+                      </div>
+
+                      <div class="iot-relay-actions">
+                        <div class="relay-row">
+                          <div class="relay-info">
+                            <strong>Automated Cutoff Relay</strong>
+                            <span>Triggers safety shutoff if threshold exceeds limit</span>
+                          </div>
+                          <span class="relay-toggle active">ARMED</span>
+                        </div>
+                        <div class="relay-row">
+                          <div class="relay-info">
+                            <strong>Offline Fallback Buffer</strong>
+                            <span>Buffers data locally if internet connection drops</span>
+                          </div>
+                          <span class="relay-toggle active">STANDBY</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Right: Textual Description -->
+                  <div class="service-slide-content">
+                    <span class="service-category-tag">04 / Connected Hardware</span>
+                    <h3 class="service-slide-title">Custom IoT Systems &amp; Smart Hardware Solutions</h3>
+                    <p class="service-slide-summary">
+                      Bridge physical operations with cloud intelligence. Whether monitoring equipment, tracking assets, or automating physical switches, we engineer robust IoT firmware and live web dashboards.
+                    </p>
+
+                    <ul class="service-feature-checklist">
+                      <li>
+                        <span class="feature-icon">&#10003;</span>
+                        <div>
+                          <strong>Real-Time Cloud Dashboards:</strong> Monitor temperature, energy, vibration, or inventory weight live from any phone or browser.
+                        </div>
+                      </li>
+                      <li>
+                        <span class="feature-icon">&#10003;</span>
+                        <div>
+                          <strong>Fail-Safe Edge Reliability:</strong> Devices continue operating, recording data, and enforcing emergency cut-offs even during network outages.
+                        </div>
+                      </li>
+                      <li>
+                        <span class="feature-icon">&#10003;</span>
+                        <div>
+                          <strong>Instant Alerts &amp; Remote Actuation:</strong> Get instant SMS/Telegram/email alerts when anomalies arise and trigger relays remotely.
+                        </div>
+                      </li>
+                    </ul>
+
+                    <div class="service-slide-footer">
+                      <div class="service-tech-badges">
+                        <span>ESP32 / STM32</span>
+                        <span>MQTT / WebSockets</span>
+                        <span>AWS IoT Core</span>
+                        <span>C++ / Embedded</span>
+                      </div>
+                      <a href="#contact" class="btn btn-primary btn-service-cta">
+                        <span>Consult on IoT Hardware</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Slide 5: AI Automation -->
+              <article class="service-slide" data-index="4">
+                <div class="service-slide-inner">
+                  <!-- Left: Descriptive Visual Mockup -->
+                  <div class="service-slide-visual theme-automation">
+                    <div class="visual-header-badge">
+                      <span class="pulse-indicator"></span>
+                      <span>Intelligent Workflows • Zero Repetitive Data Entry</span>
+                    </div>
+
+                    <div class="mock-device-ai">
+                      <div class="ai-node-flow">
+                        <div class="flow-step">
+                          <div class="step-icon ico-input">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                          </div>
+                          <div class="step-content">
+                            <strong>New Inquiry / Invoice Received</strong>
+                            <span>Email, WhatsApp, or Webhook trigger</span>
+                          </div>
+                        </div>
+
+                        <div class="flow-connector">
+                          <span class="connector-line"></span>
+                          <span class="connector-tag">AI Agent Parsing</span>
+                        </div>
+
+                        <div class="flow-step">
+                          <div class="step-icon ico-ai">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10H12V2z"/><path d="M12 2a10 10 0 0 1 10 10"/></svg>
+                          </div>
+                          <div class="step-content">
+                            <strong>Smart Extraction &amp; Auto-Response</strong>
+                            <span>Quotes drafted, slots locked &amp; data validated</span>
+                          </div>
+                        </div>
+
+                        <div class="flow-connector">
+                          <span class="connector-line"></span>
+                          <span class="connector-tag">Instant Sync</span>
+                        </div>
+
+                        <div class="flow-step highlight-step">
+                          <div class="step-icon ico-crm">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                          </div>
+                          <div class="step-content">
+                            <strong>CRM, Calendar &amp; Accounting Updated</strong>
+                            <span>25+ manual staff hours saved per week</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Right: Textual Description -->
+                  <div class="service-slide-content">
+                    <span class="service-category-tag">05 / Workflow Intelligence</span>
+                    <h3 class="service-slide-title">AI Automations That Eliminate Hours of Tedious Admin Work</h3>
+                    <p class="service-slide-summary">
+                      Stop losing valuable hours to copying data between software, manually answering routine emails, and chasing invoices. We build smart, self-running automations tailored to your operations.
+                    </p>
+
+                    <ul class="service-feature-checklist">
+                      <li>
+                        <span class="feature-icon">&#10003;</span>
+                        <div>
+                          <strong>24/7 AI Customer Concierge:</strong> Instant WhatsApp &amp; website customer query handling that qualifies leads and schedules meetings directly.
+                        </div>
+                      </li>
+                      <li>
+                        <span class="feature-icon">&#10003;</span>
+                        <div>
+                          <strong>Hands-Free Document &amp; Invoice Processing:</strong> Extract invoice details, purchase orders, and PDF receipts directly into your CRM or QuickBooks.
+                        </div>
+                      </li>
+                      <li>
+                        <span class="feature-icon">&#10003;</span>
+                        <div>
+                          <strong>Cross-App Data Synchronisation:</strong> Connect your email, calendar, CRM, and accounting software into one friction-free automated machine.
+                        </div>
+                      </li>
+                    </ul>
+
+                    <div class="service-slide-footer">
+                      <div class="service-tech-badges">
+                        <span>OpenAI / Gemini</span>
+                        <span>Make / Zapier / n8n</span>
+                        <span>Python Automation</span>
+                        <span>WhatsApp API</span>
+                      </div>
+                      <a href="#contact" class="btn btn-primary btn-service-cta">
+                        <span>Automate Your Workflows</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
             </div>
-            <h3 class="card-title">Business Process Automation</h3>
-            <p class="card-text">
-              Custom software designed specifically for how your business runs to save you time and money.
-            </p>
-            <div class="card-benefit">
-              <span class="check-icon">&#10003;</span> Automates repetitive tasks &amp; cuts overhead costs
-            </div>
-          </article>
+          </div>
+
+          <!-- Bottom Navigation Thumbnails (as in the mock) -->
+          <div class="services-nav-thumbnails" role="tablist" aria-label="Services selector">
+            <!-- Thumb 1 -->
+            <button class="service-thumb-card active" data-target="0" role="tab" aria-selected="true" aria-label="Custom Mobile App">
+              <div class="thumb-icon-box thumb-mobile">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect>
+                  <line x1="12" x2="12.01" y1="18" y2="18"></line>
+                </svg>
+              </div>
+              <div class="thumb-info">
+                <h4 class="thumb-title">Custom Mobile App</h4>
+                <p class="thumb-caption">iOS &amp; Android Solutions</p>
+              </div>
+              <div class="thumb-active-indicator"></div>
+            </button>
+
+            <!-- Thumb 2 -->
+            <button class="service-thumb-card" data-target="1" role="tab" aria-selected="false" aria-label="Custom Website">
+              <div class="thumb-icon-box thumb-web">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="14" x="2" y="3" rx="2"></rect>
+                  <line x1="8" x2="16" y1="21" y2="21"></line>
+                  <line x1="12" x2="12" y1="17" y2="21"></line>
+                </svg>
+              </div>
+              <div class="thumb-info">
+                <h4 class="thumb-title">Custom Website</h4>
+                <p class="thumb-caption">High-Speed &amp; SEO-Ready</p>
+              </div>
+              <div class="thumb-active-indicator"></div>
+            </button>
+
+            <!-- Thumb 3 -->
+            <button class="service-thumb-card" data-target="2" role="tab" aria-selected="false" aria-label="E-Commerce Solution">
+              <div class="thumb-icon-box thumb-ecom">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="8" cy="21" r="1"></circle>
+                  <circle cx="19" cy="21" r="1"></circle>
+                  <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path>
+                </svg>
+              </div>
+              <div class="thumb-info">
+                <h4 class="thumb-title">E-Commerce Solution</h4>
+                <p class="thumb-caption">Online Stores &amp; Payments</p>
+              </div>
+              <div class="thumb-active-indicator"></div>
+            </button>
+
+            <!-- Thumb 4 -->
+            <button class="service-thumb-card" data-target="3" role="tab" aria-selected="false" aria-label="IoT System">
+              <div class="thumb-icon-box thumb-iot">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+                  <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+                  <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+                  <line x1="12" y1="20" x2="12.01" y2="20"></line>
+                </svg>
+              </div>
+              <div class="thumb-info">
+                <h4 class="thumb-title">IoT System</h4>
+                <p class="thumb-caption">Smart Hardware &amp; Telemetry</p>
+              </div>
+              <div class="thumb-active-indicator"></div>
+            </button>
+
+            <!-- Thumb 5 -->
+            <button class="service-thumb-card" data-target="4" role="tab" aria-selected="false" aria-label="AI Automation">
+              <div class="thumb-icon-box thumb-ai">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path>
+                  <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                  <line x1="12" x2="12" y1="19" y2="22"></line>
+                </svg>
+              </div>
+              <div class="thumb-info">
+                <h4 class="thumb-title">AI Automation</h4>
+                <p class="thumb-caption">Hands-Free Workflows</p>
+              </div>
+              <div class="thumb-active-indicator"></div>
+            </button>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Portfolio Section -->
+    <!-- Featured Projects / Proven Track Record Section -->
     <section id="portfolio" class="section portfolio-section">
       <div class="container">
         <div class="section-header">
-          <p class="section-tag">Case Studies</p>
-          <h2 class="section-title">Real Solutions Delivering Tangible Results</h2>
+          <p class="section-tag">Featured Works</p>
+          <h2 class="section-title">Built &amp; Working in the Real World</h2>
           <p class="section-desc">
-            A look at how tailored engineering drives operational efficiency and large-scale user adoption.
+            From online stores and customer booking apps to automated daily workflows — real solutions built to help businesses save time and grow sales.
           </p>
         </div>
 
-        <div class="cards-grid portfolio-grid">
-          <!-- Case Study 1 -->
-          <article class="case-card">
-            <div class="case-card-header">
-              <span class="case-badge">Retail &amp; Logistics Ecosystem</span>
-              <h3 class="case-title">Swadeshi E-Commerce Platform</h3>
+        <div class="showcase-list">
+          <!-- Project 1: E-Commerce Ecosystem -->
+          <article class="showcase-card">
+            <div class="showcase-visual">
+              <div class="showcase-mock-container theme-ecommerce">
+                <div class="mock-top-grid">
+                  <div class="mock-mini-box">
+                    <div class="mock-box-icon">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                    </div>
+                    <div class="mock-box-title">Multi-Vendor Store</div>
+                    <p class="mock-box-desc">Automated catalog sync &amp; multi-tenant split checkout.</p>
+                  </div>
+                  <div class="mock-mini-box">
+                    <div class="mock-box-icon">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
+                    </div>
+                    <div class="mock-box-title">Order Gateway</div>
+                    <p class="mock-box-desc">Instant payment routing with 99.98% verified reliability.</p>
+                  </div>
+                </div>
+
+                <div class="mock-row-item">
+                  <div class="mock-row-thumb thumb-cart">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+                  </div>
+                  <div class="mock-row-body">
+                    <div class="mock-row-title">High-Throughput Checkout Architecture</div>
+                    <div class="mock-bar-skeleton"></div>
+                  </div>
+                </div>
+
+                <div class="mock-row-item">
+                  <div class="mock-row-thumb thumb-inventory">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.29 7 12 12 20.71 7"/><line x1="12" y1="22" x2="12" y2="12"/></svg>
+                  </div>
+                  <div class="mock-row-body">
+                    <div class="mock-row-title">Real-Time Multi-Store Inventory Sync</div>
+                    <div class="mock-bar-skeleton short"></div>
+                  </div>
+                </div>
+
+                <div class="mock-row-item">
+                  <div class="mock-row-thumb thumb-analytics">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#d97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                  </div>
+                  <div class="mock-row-body">
+                    <div class="mock-row-title">Automated Vendor Ledger &amp; Payouts</div>
+                    <div class="mock-bar-skeleton medium"></div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <p class="case-description">
-              Built a complete ecosystem from scratch, allowing a brand to seamlessly manage vendors, process orders, and provide a smooth shopping experience on iOS and Android.
-            </p>
-            <ul class="case-highlights">
-              <li>End-to-end multi-vendor &amp; inventory control</li>
-              <li>Native cross-platform experience (iOS &amp; Android)</li>
-              <li>Frictionless payment processing and order tracking</li>
-            </ul>
+
+            <div class="showcase-details">
+              <span class="showcase-pill-badge">E-Commerce Ecosystem</span>
+              <h3 class="showcase-title">Swadeshi Multi-Vendor Platform</h3>
+              <p class="showcase-tagline">
+                Complete retail ecosystem enabling independent vendors to manage catalog inventory and process friction-free orders across iOS, Android, and Web.
+              </p>
+
+              <div class="outcome-list">
+                <div class="outcome-item">
+                  <span class="outcome-check-icon">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <div class="outcome-text">
+                    <strong>The Challenge:</strong> Manual vendor reconciliation and checkout drop-offs were capping brand revenue.
+                  </div>
+                </div>
+                <div class="outcome-item">
+                  <span class="outcome-check-icon">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <div class="outcome-text">
+                    <strong>The Solution:</strong> Unified backend with multi-tenant inventory control, automated split payouts, and low-latency APIs.
+                  </div>
+                </div>
+                <div class="outcome-item">
+                  <span class="outcome-check-icon">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <div class="outcome-text">
+                    <strong>Verified Impact:</strong> Scaled seamlessly to 10,000+ monthly orders with 99.98% payment processing reliability.
+                  </div>
+                </div>
+              </div>
+
+              <div class="tech-stack-pills">
+                <span class="tech-tag">Flutter</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Stripe Gateway</span>
+                <span class="tech-tag">Docker</span>
+              </div>
+
+              <div class="showcase-cta">
+                <a href="#contact" class="btn btn-showcase-action">
+                  <span>Explore Live Platform</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </a>
+              </div>
+            </div>
           </article>
 
-          <!-- Case Study 2 -->
-          <article class="case-card">
-            <div class="case-card-header">
-              <span class="case-badge">High-Scale EdTech</span>
-              <h3 class="case-title">OneIELTS Global App</h3>
+          <!-- Project 2: High-Concurrency Mobile App -->
+          <article class="showcase-card">
+            <div class="showcase-visual">
+              <div class="showcase-mock-container theme-mobile">
+                <div class="mock-top-grid">
+                  <div class="mock-mini-box">
+                    <div class="mock-box-icon">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><line x1="12" x2="12.01" y1="18" y2="18"/></svg>
+                    </div>
+                    <div class="mock-box-title">Mobile App Suite</div>
+                    <p class="mock-box-desc">Cross-platform test engine with offline caching support.</p>
+                  </div>
+                  <div class="mock-mini-box">
+                    <div class="mock-box-icon">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" x2="12" y1="19" y2="22"/></svg>
+                    </div>
+                    <div class="mock-box-title">Audio Streaming</div>
+                    <p class="mock-box-desc">&lt;150ms sync latency under peak exam prep traffic.</p>
+                  </div>
+                </div>
+
+                <div class="mock-row-item">
+                  <div class="mock-row-thumb thumb-audio">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#e11d48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+                  </div>
+                  <div class="mock-row-body">
+                    <div class="mock-row-title">Real-Time Audio Mock Examination Engine</div>
+                    <div class="mock-bar-skeleton"></div>
+                  </div>
+                </div>
+
+                <div class="mock-row-item">
+                  <div class="mock-row-thumb thumb-exam">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                  </div>
+                  <div class="mock-row-body">
+                    <div class="mock-row-title">Instant Scoring &amp; Diagnostic Analytics</div>
+                    <div class="mock-bar-skeleton short"></div>
+                  </div>
+                </div>
+
+                <div class="mock-row-item">
+                  <div class="mock-row-thumb thumb-concurrency">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                  </div>
+                  <div class="mock-row-body">
+                    <div class="mock-row-title">150k+ Active International Candidate Sessions</div>
+                    <div class="mock-bar-skeleton medium"></div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <p class="case-description">
-              Developed scalable core features for an application serving 150,000+ users worldwide, ensuring high performance and reliability.
+
+            <div class="showcase-details">
+              <span class="showcase-pill-badge">Mobile Engineering</span>
+              <h3 class="showcase-title">OneIELTS Global Mobile App</h3>
+              <p class="showcase-tagline">
+                Cross-platform mobile application delivering low-latency audio mock tests, automated scoring, and study materials for international exam candidates.
+              </p>
+
+              <div class="outcome-list">
+                <div class="outcome-item">
+                  <span class="outcome-check-icon">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <div class="outcome-text">
+                    <strong>The Challenge:</strong> High concurrent user spikes during exam prep hours caused database deadlocks on legacy infrastructure.
+                  </div>
+                </div>
+                <div class="outcome-item">
+                  <span class="outcome-check-icon">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <div class="outcome-text">
+                    <strong>The Solution:</strong> Refactored backend query queues, introduced Redis caching layers, and decoupled audio streaming services.
+                  </div>
+                </div>
+                <div class="outcome-item">
+                  <span class="outcome-check-icon">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <div class="outcome-text">
+                    <strong>Verified Impact:</strong> Zero downtime under 150,000+ active user sessions worldwide with 4.8★ app store rating.
+                  </div>
+                </div>
+              </div>
+
+              <div class="tech-stack-pills">
+                <span class="tech-tag">React Native</span>
+                <span class="tech-tag">FastAPI</span>
+                <span class="tech-tag">Redis</span>
+                <span class="tech-tag">AWS Cloud</span>
+                <span class="tech-tag">Audio Stream CDN</span>
+              </div>
+
+              <div class="showcase-cta">
+                <a href="#contact" class="btn btn-showcase-action">
+                  <span>View on App Store &amp; Play</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Web Platform & Workflow Automation -->
+          <article class="showcase-card">
+            <div class="showcase-visual">
+              <div class="showcase-mock-container theme-saas">
+                <div class="mock-top-grid">
+                  <div class="mock-mini-box">
+                    <div class="mock-box-icon">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+                    </div>
+                    <div class="mock-box-title">Client Auto-Booking</div>
+                    <p class="mock-box-desc">Instant calendar reservation with automated slot holds.</p>
+                  </div>
+                  <div class="mock-mini-box">
+                    <div class="mock-box-icon">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    </div>
+                    <div class="mock-box-title">WhatsApp Dispatch</div>
+                    <p class="mock-box-desc">Automated alerts, confirmations, and dynamic re-scheduling.</p>
+                  </div>
+                </div>
+
+                <div class="mock-row-item">
+                  <div class="mock-row-thumb thumb-booking">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#d97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                  </div>
+                  <div class="mock-row-body">
+                    <div class="mock-row-title">Self-Serve Appointment Intake &amp; Calendar Lock</div>
+                    <div class="mock-bar-skeleton"></div>
+                  </div>
+                </div>
+
+                <div class="mock-row-item">
+                  <div class="mock-row-thumb thumb-whatsapp">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 18a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2"/><rect width="20" height="16" x="2" y="4" rx="2"/></svg>
+                  </div>
+                  <div class="mock-row-body">
+                    <div class="mock-row-title">Automated Two-Way WhatsApp Client Alerts</div>
+                    <div class="mock-bar-skeleton short"></div>
+                  </div>
+                </div>
+
+                <div class="mock-row-item">
+                  <div class="mock-row-thumb thumb-crm">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  </div>
+                  <div class="mock-row-body">
+                    <div class="mock-row-title">Real-Time CRM Sync (25+ Staff Hours Saved/Wk)</div>
+                    <div class="mock-bar-skeleton medium"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase-details">
+              <span class="showcase-pill-badge">Custom SaaS &amp; Automation</span>
+              <h3 class="showcase-title">Apex Auto-Booking &amp; CRM Engine</h3>
+              <p class="showcase-tagline">
+                Cloud-based appointment management system that automates client intake, instant WhatsApp confirmations, and calendar sync without human intervention.
+              </p>
+
+              <div class="outcome-list">
+                <div class="outcome-item">
+                  <span class="outcome-check-icon">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <div class="outcome-text">
+                    <strong>The Challenge:</strong> Front desk spent 20+ hours weekly manually texting clients, resolving scheduling overlaps, and sending reminders.
+                  </div>
+                </div>
+                <div class="outcome-item">
+                  <span class="outcome-check-icon">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <div class="outcome-text">
+                    <strong>The Solution:</strong> Custom booking engine integrating Google Calendar API, automated WhatsApp Business Webhooks, and CRM pipeline sync.
+                  </div>
+                </div>
+                <div class="outcome-item">
+                  <span class="outcome-check-icon">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <div class="outcome-text">
+                    <strong>Verified Impact:</strong> Completely eliminated double-bookings and reclaimed 25+ administrative staff hours every single week.
+                  </div>
+                </div>
+              </div>
+
+              <div class="tech-stack-pills">
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">WhatsApp Cloud API</span>
+                <span class="tech-tag">Supabase</span>
+                <span class="tech-tag">Serverless Jobs</span>
+              </div>
+
+              <div class="showcase-cta">
+                <a href="#contact" class="btn btn-showcase-action">
+                  <span>Launch Live Platform</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: IoT & Embedded Telemetry -->
+          <article class="showcase-card">
+            <div class="showcase-visual">
+              <div class="showcase-mock-container theme-iot">
+                <div class="mock-top-grid">
+                  <div class="mock-mini-box">
+                    <div class="mock-box-icon">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
+                    </div>
+                    <div class="mock-box-title">ESP32 Gateway</div>
+                    <p class="mock-box-desc">Multi-sensor telemetry broadcasting over secure MQTT.</p>
+                  </div>
+                  <div class="mock-mini-box">
+                    <div class="mock-box-icon">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <div class="mock-box-title">Fail-Safe Logic</div>
+                    <p class="mock-box-desc">Automated cutoff relays &amp; 100% offline edge fault buffering.</p>
+                  </div>
+                </div>
+
+                <div class="mock-row-item">
+                  <div class="mock-row-thumb thumb-telemetry">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0891b2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+                  </div>
+                  <div class="mock-row-body">
+                    <div class="mock-row-title">Sub-Second Environmental &amp; Sensor Telemetry</div>
+                    <div class="mock-bar-skeleton"></div>
+                  </div>
+                </div>
+
+                <div class="mock-row-item">
+                  <div class="mock-row-thumb thumb-relay">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                  </div>
+                  <div class="mock-row-body">
+                    <div class="mock-row-title">Active Relay Controller &amp; Emergency Cut-Off</div>
+                    <div class="mock-bar-skeleton short"></div>
+                  </div>
+                </div>
+
+                <div class="mock-row-item">
+                  <div class="mock-row-thumb thumb-cloud">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                  </div>
+                  <div class="mock-row-body">
+                    <div class="mock-row-title">Cloud Dashboard WebSockets (&lt;180ms Latency)</div>
+                    <div class="mock-bar-skeleton medium"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase-details">
+              <span class="showcase-pill-badge">IoT &amp; Embedded Systems</span>
+              <h3 class="showcase-title">Industrial Edge Telemetry &amp; Remote Control</h3>
+              <p class="showcase-tagline">
+                Distributed hardware monitoring system that streams sensor metrics via MQTT over WebSockets, triggering automated safety relays and cloud alerts.
+              </p>
+
+              <div class="outcome-list">
+                <div class="outcome-item">
+                  <span class="outcome-check-icon">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <div class="outcome-text">
+                    <strong>The Challenge:</strong> Critical factory equipment had zero remote monitoring; failures went unnoticed until catastrophic downtime occurred.
+                  </div>
+                </div>
+                <div class="outcome-item">
+                  <span class="outcome-check-icon">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <div class="outcome-text">
+                    <strong>The Solution:</strong> Custom C++ ESP32 firmware transmitting telemetry via secured MQTT broker to a real-time web control room dashboard.
+                  </div>
+                </div>
+                <div class="outcome-item">
+                  <span class="outcome-check-icon">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <div class="outcome-text">
+                    <strong>Verified Impact:</strong> Sub-second anomaly detection with fail-safe remote cut-off and 100% offline data buffering.
+                  </div>
+                </div>
+              </div>
+
+              <div class="tech-stack-pills">
+                <span class="tech-tag">C++ / Embedded</span>
+                <span class="tech-tag">ESP32 &amp; STM32</span>
+                <span class="tech-tag">MQTT / WebSockets</span>
+                <span class="tech-tag">Python Edge</span>
+                <span class="tech-tag">Real-Time UI</span>
+              </div>
+
+              <div class="showcase-cta">
+                <a href="#contact" class="btn btn-showcase-action">
+                  <span>Inspect System Architecture</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+        
+        <div class="portfolio-action-row" style="margin-top: 3rem;">
+          <button type="button" class="btn-sidepanel-trigger btn-sidepanel-trigger-full" id="openWorkHistoryPanel" aria-haspopup="dialog" aria-controls="workHistoryPanel">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="3" rx="2"/><line x1="15" x2="15" y1="3" y2="21"/></svg>
+            <span>Explore All Previous Works</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Pricing Banner Section -->
+    <section id="pricing" class="pricing-banner-section">
+      <div class="container">
+        <div class="pricing-banner-card">
+          <!-- Ambient decorative light waves -->
+          <div class="pricing-banner-waves" aria-hidden="true">
+            <span class="p-wave p-wave-1"></span>
+            <span class="p-wave p-wave-2"></span>
+          </div>
+
+          <div class="pricing-banner-inner">
+            <!-- Left side: Narrative & Offer -->
+            <div class="pricing-banner-main">
+              <h2 class="pricing-banner-title">
+                Get Your Custom Business Tool Starting at <span class="highlight-price">$19.99 USD</span>
+              </h2>
+              <p class="pricing-banner-desc">
+                Simple, custom digital tools built to save you time, cut down daily manual work, and help your business run smoothly — without expensive agency costs.
+              </p>
+
+              <!-- Transparent Base Price Disclaimer Note -->
+              <div class="pricing-banner-disclaimer">
+                <div class="disclaimer-title-line">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="16" x2="12" y2="12"></line>
+                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                  </svg>
+                  <span>Note</span>
+                </div>
+                <p class="disclaimer-note">
+                  <strong>$19.99 USD</strong> is the base starting price covering small needs end-to-end. Final pricing varies transparently with project size and complexity.
+                </p>
+              </div>
+            </div>
+
+            <!-- Right side: Big Price Display & Start Now Action -->
+            <div class="pricing-banner-action-col">
+              <div class="pricing-banner-price-card">
+                <span class="price-sublabel">Starting From</span>
+                <div class="price-val-row">
+                  <span class="price-currency">$</span>
+                  <span class="price-amount">19.99</span>
+                  <span class="price-currency-code">USD</span>
+                </div>
+                <span class="price-caption">Covers all small &amp; focused needs</span>
+
+                <a href="https://wa.me/ashiqur.dev?text=Hi%20Ashiqur%2C%20I%20would%20like%20to%20start%20my%20product%20solution." target="_blank" rel="noopener noreferrer" class="btn btn-pricing-banner-cta">
+                  <span>Start Now</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+                <span class="action-reassurance">&#10003; Quick chat &amp; clear plan before you start</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trusted Clients / Partners Logo Slider -->
+    <section class="clients-slider-section" aria-label="Clients and Partners">
+      <div class="container">
+        <div class="clients-slider-header">
+          <p class="clients-slider-caption">Clients Who Trust Me</p>
+        </div>
+        
+        <div class="clients-slider-wrapper">
+          <!-- Row 1: Sliding Left -->
+          <div class="clients-slider-row">
+            <div class="clients-slider-track track-left" aria-hidden="false">
+              <!-- Set 1 -->
+              <!-- Acadion -->
+              <div class="client-logo-item">
+                <img src="acadion-logo.webp" alt="Acadion" class="client-logo-img" loading="lazy" />
+              </div>
+
+              <!-- Hackules (Official Brand SVG) -->
+              <div class="client-logo-item">
+                <svg viewBox="0 0 559.5 125" class="client-logo-svg" style="height: 32px;" role="img" aria-label="Hackules">
+                  <path d="M171.2,40.6h-16.4c-0.3,0-0.7,0.1-0.8,0.6l-1.8,3.9c-0.3,0.6-0.8,0.7-1.2,0.3c-5.5-4.3-12.6-6.8-20.3-6.8c-21.1,0-36.3,15.3-36.3,36.7c0,3,0.3,5.9,0.8,8.7l5.7-2.5c0.7-0.3,1.5-0.6,2.3-0.6l0,0c2.1,0,4,1.1,5,2.9c1,1.7,0.8,3.6-0.3,5.2l-6.2,9.4c6.5,8.6,16.7,13.8,29,13.8c7.6,0,14.5-2.3,20-6.6c0.4-0.3,1.1-0.1,1.2,0.3l1.4,3.3c0.1,0.3,0.4,0.6,0.8,0.6h17c0.4,0,0.8-0.4,0.8-0.8V41.3C172.2,41,171.8,40.6,171.2,40.6L171.2,40.6z M133.9,91.1c-8.4,0-14.6-5.9-15.5-14.1c-1-10.4,7-18.5,17.4-17.3c7.9,1,13.5,7.3,13.5,15.6C149.4,84.3,142.9,91.1,133.9,91.1L133.9,91.1z" fill="#543B7D"/>
+                  <path d="M213.3,112.2c-22.2,0-38.2-15.6-38.2-37s16-36.7,38.4-36.7c19,0,33.5,11.9,36.6,29.7c0.1,0.6-0.3,1-0.8,1h-21.7c-0.4,0-0.7-0.3-0.8-0.6c-2.2-5.4-7.3-8.8-13.3-8.8c-8.4,0-14.4,6.3-14.4,15.5c0,9,6.1,15.6,14.4,15.6c6.2,0,11.3-3.7,13.4-9.5c0.1-0.3,0.4-0.6,0.8-0.6h21.8c0.6,0,1,0.4,0.8,1C247.1,100.1,232.5,112.2,213.3,112.2L213.3,112.2z" fill="#543B7D"/>
+                  <path d="M294.6,109.6l-15.5-26.2c-0.4-0.7-1.5-0.4-1.5,0.4v25.4c0,0.4-0.4,0.8-0.8,0.8h-22.2c-0.4,0-0.8-0.4-0.8-0.8V16.6c0-0.4,0.4-0.8,0.8-0.8h22.2c0.4,0,0.8,0.4,0.8,0.8v48.3c0,0.8,1.1,1.2,1.5,0.4l14.6-24.2c0.1-0.3,0.4-0.4,0.7-0.4h24.7c0.7,0,1.1,0.7,0.7,1.4l-20.4,31.2c-0.1,0.3-0.1,0.7,0,1l22.6,34.5c0.4,0.6,0,1.4-0.7,1.4h-26.1C295,110,294.7,109.9,294.6,109.6L294.6,109.6z" fill="#543B7D"/>
+                  <path d="M322.9,80.2V41.5c0-0.4,0.4-0.8,0.8-0.8H346c0.4,0,0.8,0.4,0.8,0.8v37.7c0,7.3,3.9,11.6,10.4,11.6c6.3,0,10.2-4.4,10.2-11.6V41.5c0-0.4,0.4-0.8,0.8-0.8h22.2c0.4,0,0.8,0.4,0.8,0.8v38.7c0,19.3-13.7,32-34.1,32C336.7,112.2,322.9,99.7,322.9,80.2z" fill="#543B7D"/>
+                  <path d="M396.6,15.7h22.2c0.4,0,0.8,0.4,0.8,0.8v92.6c0,0.4-0.4,0.8-0.8,0.8h-22.2c-0.4,0-0.8-0.4-0.8-0.8V16.6C395.8,16,396.2,15.7,396.6,15.7z" fill="#543B7D"/>
+                  <path d="M497.9,74.7c0,1.8-0.1,3.7-0.4,5.5c0,0.4-0.4,0.7-0.8,0.7H447c-0.6,0-1,0.6-0.8,1.1c1.8,7.3,6.8,11,13.9,11c5.4,0,9.9-2.3,12.3-6.1c0.1-0.3,0.4-0.4,0.7-0.4h22.1c0.6,0,1,0.6,0.8,1.1c-5.2,15.2-18.9,24.6-35.9,24.6c-21.7,0-37.7-15.7-37.7-37s15.9-36.9,37.7-36.9C482.5,38.4,497.9,54.4,497.9,74.7L497.9,74.7z M447.7,67.8h25.5c0.6,0,1-0.6,0.8-1.1c-2.3-6.2-7.2-9.5-13.9-9.5c-6.6,0-11.2,3.3-13.4,9.5C446.6,67.2,447,67.8,447.7,67.8z" fill="#543B7D"/>
+                  <path d="M528.9,112.2c-18.5,0-30-9.5-30.5-24.2c0-0.6,0.4-0.8,0.8-0.8h21.3c0.4,0,0.8,0.4,0.8,0.8c0.4,4.6,3.7,6.6,8,6.6c3.5,0,6.8-1.8,6.8-5.4c0-4-5.2-5.1-11.9-6.2c-10.8-1.8-25-5-25-21.8c0-13.9,11.9-22.9,29.5-22.9c17.7,0,29.1,9.4,29.4,23.5h-21.5c-0.4,0-0.8-0.4-0.8-0.8c-0.3-3.9-3.2-5.7-7.3-5.7c-3.9,0-6.3,1.9-6.3,5.1c0,4,5.2,4.8,11.9,6.1c10.9,1.9,25.5,4.3,25.5,21.8C559.5,102.8,547.2,112.2,528.9,112.2L528.9,112.2z" fill="#543B7D"/>
+                  <path d="M102.3,84.6l-10.9,4.8V17.7c0-1.1-0.8-1.9-1.9-1.9H68.2c-1.1,0-1.9,0.8-1.9,1.9v18.9v14.1c0,1.1-0.8,1.9-1.9,1.9H41.4c-1.1,0-1.9-0.8-1.9-1.9V35.6l10.8,4.7c1.9,0.8,3.9-1,2.8-2.6L28.5,0.8c-0.7-1.1-2.8-1.1-3.6,0L0.3,37.7c-1.1,1.7,1,3.5,2.8,2.6l11.4-5l0,1.5v71.3c0,1.1,0.8,1.9,1.9,1.9h21.3c1.1,0,1.9-0.8,1.9-1.9V77.4c0-1.1,0.8-1.9,1.9-1.9h22.9c0.8,0,1.5,0.5,1.8,1.2v12.8l-11.2-4.9c-1.8-0.8-3.9,1-2.8,2.6l24.6,36.9h0c0.8,1.2,2.9,1.2,3.6,0l24.6-36.9C106.2,85.6,104.3,83.8,102.3,84.6z" fill="#543B7D"/>
+                  <g>
+                    <path d="M78.9,102.4c-1,0-1.8-0.8-1.8-1.8V71.9c0-1.7-0.7-3.3-1.9-4.4c-1.2-1.2-2.8-1.8-4.6-1.8L34.8,66c0,0,0,0-0.1,0c-2.6,0-5-1-6.9-2.9c-1.8-1.8-2.9-4.3-2.9-6.9V37.8c0-1,0.8-1.8,1.8-1.8c1,0,1.8,0.8,1.8,1.8v18.4c0,1.7,0.7,3.3,1.9,4.4c1.2,1.2,2.8,1.8,4.6,1.8l35.8-0.3c2.6,0,5.1,1,6.9,2.9c1.8,1.8,2.9,4.3,2.9,6.9v28.7C80.6,101.6,79.8,102.4,78.9,102.4L78.9,102.4z" fill="#FFE600"/>
+                    <path d="M26.8,39.2c-4.7,0-8.4-3.7-8.4-8.4s3.7-8.4,8.4-8.4s8.4,3.7,8.4,8.4S31.4,39.2,26.8,39.2z M26.8,25.8c-2.8,0-5,2.2-5,5s2.2,5,5,5s5-2.2,5-5S29.4,25.8,26.8,25.8z" fill="#FFE600"/>
+                    <path d="M78.9,105c-0.4,0-0.8-0.1-1.2-0.6l-8-8c-0.7-0.7-0.7-1.8,0-2.5c0.7-0.7,1.8-0.7,2.5,0l6.9,6.9l6.9-6.9c0.7-0.7,1.8-0.7,2.5,0c0.7,0.7,0.7,1.8,0,2.5l-8,8C79.8,104.9,79.3,105,78.9,105z" fill="#FFE600"/>
+                  </g>
+                </svg>
+              </div>
+
+              <!-- Concepft -->
+              <div class="client-logo-item">
+                <div class="client-logo-badge">
+                  <svg viewBox="0 0 32 32" style="width: 28px; height: 28px;" role="img" aria-label="Concepft">
+                    <defs>
+                      <linearGradient id="cf_grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#7c3aed" />
+                        <stop offset="50%" stop-color="#d946ef" />
+                        <stop offset="100%" stop-color="#f97316" />
+                      </linearGradient>
+                    </defs>
+                    <rect width="32" height="32" rx="8" fill="url(#cf_grad1)" />
+                    <text x="16" y="22.5" text-anchor="middle" fill="#ffffff" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="18" font-weight="800">C</text>
+                  </svg>
+                  <span style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 1.25rem; font-weight: 800; letter-spacing: -0.02em; background: linear-gradient(to right, #7c3aed, #d946ef, #f97316); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Concepft</span>
+                </div>
+              </div>
+
+              <!-- OneIELTS -->
+              <div class="client-logo-item">
+                <div class="client-logo-badge">
+                  <img src="oneielts-logo.png" alt="OneIELTS" style="height: 32px; width: auto;" loading="lazy" />
+                  <span style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 1.25rem; font-weight: 800; color: #0f172a; letter-spacing: -0.02em;">One<span style="color: #ff3366;">IELTS</span></span>
+                </div>
+              </div>
+
+              <!-- LiiLab -->
+              <div class="client-logo-item">
+                <div class="client-logo-badge">
+                  <img src="liilab-logo.png" alt="LiiLab" style="height: 30px; width: auto;" loading="lazy" />
+                  <span style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 1.25rem; font-weight: 800; color: #1e293b; letter-spacing: -0.02em;">Lii<span style="color: #2563eb;">Lab</span></span>
+                </div>
+              </div>
+
+              <!-- Duplicate Set for continuous loop (Row 1) -->
+              <div class="client-logo-item" aria-hidden="true">
+                <img src="acadion-logo.webp" alt="Acadion" class="client-logo-img" loading="lazy" />
+              </div>
+              <div class="client-logo-item" aria-hidden="true">
+                <svg viewBox="0 0 559.5 125" class="client-logo-svg" style="height: 32px;" role="img">
+                  <path d="M171.2,40.6h-16.4c-0.3,0-0.7,0.1-0.8,0.6l-1.8,3.9c-0.3,0.6-0.8,0.7-1.2,0.3c-5.5-4.3-12.6-6.8-20.3-6.8c-21.1,0-36.3,15.3-36.3,36.7c0,3,0.3,5.9,0.8,8.7l5.7-2.5c0.7-0.3,1.5-0.6,2.3-0.6l0,0c2.1,0,4,1.1,5,2.9c1,1.7,0.8,3.6-0.3,5.2l-6.2,9.4c6.5,8.6,16.7,13.8,29,13.8c7.6,0,14.5-2.3,20-6.6c0.4-0.3,1.1-0.1,1.2,0.3l1.4,3.3c0.1,0.3,0.4,0.6,0.8,0.6h17c0.4,0,0.8-0.4,0.8-0.8V41.3C172.2,41,171.8,40.6,171.2,40.6L171.2,40.6z M133.9,91.1c-8.4,0-14.6-5.9-15.5-14.1c-1-10.4,7-18.5,17.4-17.3c7.9,1,13.5,7.3,13.5,15.6C149.4,84.3,142.9,91.1,133.9,91.1L133.9,91.1z" fill="#543B7D"/>
+                  <path d="M213.3,112.2c-22.2,0-38.2-15.6-38.2-37s16-36.7,38.4-36.7c19,0,33.5,11.9,36.6,29.7c0.1,0.6-0.3,1-0.8,1h-21.7c-0.4,0-0.7-0.3-0.8-0.6c-2.2-5.4-7.3-8.8-13.3-8.8c-8.4,0-14.4,6.3-14.4,15.5c0,9,6.1,15.6,14.4,15.6c6.2,0,11.3-3.7,13.4-9.5c0.1-0.3,0.4-0.6,0.8-0.6h21.8c0.6,0,1,0.4,0.8,1C247.1,100.1,232.5,112.2,213.3,112.2L213.3,112.2z" fill="#543B7D"/>
+                  <path d="M294.6,109.6l-15.5-26.2c-0.4-0.7-1.5-0.4-1.5,0.4v25.4c0,0.4-0.4,0.8-0.8,0.8h-22.2c-0.4,0-0.8-0.4-0.8-0.8V16.6c0-0.4,0.4-0.8,0.8-0.8h22.2c0.4,0,0.8,0.4,0.8,0.8v48.3c0,0.8,1.1,1.2,1.5,0.4l14.6-24.2c0.1-0.3,0.4-0.4,0.7-0.4h24.7c0.7,0,1.1,0.7,0.7,1.4l-20.4,31.2c-0.1,0.3-0.1,0.7,0,1l22.6,34.5c0.4,0.6,0,1.4-0.7,1.4h-26.1C295,110,294.7,109.9,294.6,109.6L294.6,109.6z" fill="#543B7D"/>
+                  <path d="M322.9,80.2V41.5c0-0.4,0.4-0.8,0.8-0.8H346c0.4,0,0.8,0.4,0.8,0.8v37.7c0,7.3,3.9,11.6,10.4,11.6c6.3,0,10.2-4.4,10.2-11.6V41.5c0-0.4,0.4-0.8,0.8-0.8h22.2c0.4,0,0.8,0.4,0.8,0.8v38.7c0,19.3-13.7,32-34.1,32C336.7,112.2,322.9,99.7,322.9,80.2z" fill="#543B7D"/>
+                  <path d="M396.6,15.7h22.2c0.4,0,0.8,0.4,0.8,0.8v92.6c0,0.4-0.4,0.8-0.8,0.8h-22.2c-0.4,0-0.8-0.4-0.8-0.8V16.6C395.8,16,396.2,15.7,396.6,15.7z" fill="#543B7D"/>
+                  <path d="M497.9,74.7c0,1.8-0.1,3.7-0.4,5.5c0,0.4-0.4,0.7-0.8,0.7H447c-0.6,0-1,0.6-0.8,1.1c1.8,7.3,6.8,11,13.9,11c5.4,0,9.9-2.3,12.3-6.1c0.1-0.3,0.4-0.4,0.7-0.4h22.1c0.6,0,1,0.6,0.8,1.1c-5.2,15.2-18.9,24.6-35.9,24.6c-21.7,0-37.7-15.7-37.7-37s15.9-36.9,37.7-36.9C482.5,38.4,497.9,54.4,497.9,74.7L497.9,74.7z M447.7,67.8h25.5c0.6,0,1-0.6,0.8-1.1c-2.3-6.2-7.2-9.5-13.9-9.5c-6.6,0-11.2,3.3-13.4,9.5C446.6,67.2,447,67.8,447.7,67.8z" fill="#543B7D"/>
+                  <path d="M528.9,112.2c-18.5,0-30-9.5-30.5-24.2c0-0.6,0.4-0.8,0.8-0.8h21.3c0.4,0,0.8,0.4,0.8,0.8c0.4,4.6,3.7,6.6,8,6.6c3.5,0,6.8-1.8,6.8-5.4c0-4-5.2-5.1-11.9-6.2c-10.8-1.8-25-5-25-21.8c0-13.9,11.9-22.9,29.5-22.9c17.7,0,29.1,9.4,29.4,23.5h-21.5c-0.4,0-0.8-0.4-0.8-0.8c-0.3-3.9-3.2-5.7-7.3-5.7c-3.9,0-6.3,1.9-6.3,5.1c0,4,5.2,4.8,11.9,6.1c10.9,1.9,25.5,4.3,25.5,21.8C559.5,102.8,547.2,112.2,528.9,112.2L528.9,112.2z" fill="#543B7D"/>
+                  <path d="M102.3,84.6l-10.9,4.8V17.7c0-1.1-0.8-1.9-1.9-1.9H68.2c-1.1,0-1.9,0.8-1.9,1.9v18.9v14.1c0,1.1-0.8,1.9-1.9,1.9H41.4c-1.1,0-1.9-0.8-1.9-1.9V35.6l10.8,4.7c1.9,0.8,3.9-1,2.8-2.6L28.5,0.8c-0.7-1.1-2.8-1.1-3.6,0L0.3,37.7c-1.1,1.7,1,3.5,2.8,2.6l11.4-5l0,1.5v71.3c0,1.1,0.8,1.9,1.9,1.9h21.3c1.1,0,1.9-0.8,1.9-1.9V77.4c0-1.1,0.8-1.9,1.9-1.9h22.9c0.8,0,1.5,0.5,1.8,1.2v12.8l-11.2-4.9c-1.8-0.8-3.9,1-2.8,2.6l24.6,36.9h0c0.8,1.2,2.9,1.2,3.6,0l24.6-36.9C106.2,85.6,104.3,83.8,102.3,84.6z" fill="#543B7D"/>
+                  <g>
+                    <path d="M78.9,102.4c-1,0-1.8-0.8-1.8-1.8V71.9c0-1.7-0.7-3.3-1.9-4.4c-1.2-1.2-2.8-1.8-4.6-1.8L34.8,66c0,0,0,0-0.1,0c-2.6,0-5-1-6.9-2.9c-1.8-1.8-2.9-4.3-2.9-6.9V37.8c0-1,0.8-1.8,1.8-1.8c1,0,1.8,0.8,1.8,1.8v18.4c0,1.7,0.7,3.3,1.9,4.4c1.2,1.2,2.8,1.8,4.6,1.8l35.8-0.3c2.6,0,5.1,1,6.9,2.9c1.8,1.8,2.9,4.3,2.9,6.9v28.7C80.6,101.6,79.8,102.4,78.9,102.4L78.9,102.4z" fill="#FFE600"/>
+                    <path d="M26.8,39.2c-4.7,0-8.4-3.7-8.4-8.4s3.7-8.4,8.4-8.4s8.4,3.7,8.4,8.4S31.4,39.2,26.8,39.2z M26.8,25.8c-2.8,0-5,2.2-5,5s2.2,5,5,5s5-2.2,5-5S29.4,25.8,26.8,25.8z" fill="#FFE600"/>
+                    <path d="M78.9,105c-0.4,0-0.8-0.1-1.2-0.6l-8-8c-0.7-0.7-0.7-1.8,0-2.5c0.7-0.7,1.8-0.7,2.5,0l6.9,6.9l6.9-6.9c0.7-0.7,1.8-0.7,2.5,0c0.7,0.7,0.7,1.8,0,2.5l-8,8C79.8,104.9,79.3,105,78.9,105z" fill="#FFE600"/>
+                  </g>
+                </svg>
+              </div>
+              <div class="client-logo-item" aria-hidden="true">
+                <div class="client-logo-badge">
+                  <svg viewBox="0 0 32 32" style="width: 28px; height: 28px;" role="img">
+                    <rect width="32" height="32" rx="8" fill="url(#cf_grad1)" />
+                    <text x="16" y="22.5" text-anchor="middle" fill="#ffffff" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="18" font-weight="800">C</text>
+                  </svg>
+                  <span style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 1.25rem; font-weight: 800; letter-spacing: -0.02em; background: linear-gradient(to right, #7c3aed, #d946ef, #f97316); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Concepft</span>
+                </div>
+              </div>
+              <div class="client-logo-item" aria-hidden="true">
+                <div class="client-logo-badge">
+                  <img src="oneielts-logo.png" alt="OneIELTS" style="height: 32px; width: auto;" loading="lazy" />
+                  <span style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 1.25rem; font-weight: 800; color: #0f172a; letter-spacing: -0.02em;">One<span style="color: #ff3366;">IELTS</span></span>
+                </div>
+              </div>
+              <div class="client-logo-item" aria-hidden="true">
+                <div class="client-logo-badge">
+                  <img src="liilab-logo.png" alt="LiiLab" style="height: 30px; width: auto;" loading="lazy" />
+                  <span style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 1.25rem; font-weight: 800; color: #1e293b; letter-spacing: -0.02em;">Lii<span style="color: #2563eb;">Lab</span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Row 2: Sliding Right -->
+          <div class="clients-slider-row">
+            <div class="clients-slider-track track-right" aria-hidden="false">
+              <!-- Set 1 -->
+              <!-- OnePTE -->
+              <div class="client-logo-item">
+                <div class="client-logo-badge">
+                  <img src="onepte-logo.png" alt="OnePTE" style="height: 30px; width: auto;" loading="lazy" />
+                  <span style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 1.2rem; font-weight: 800; color: #0f172a; letter-spacing: -0.02em;">One<span style="color: #2563eb;">PTE</span></span>
+                </div>
+              </div>
+
+              <!-- Sub4Sub Pro -->
+              <div class="client-logo-item">
+                <div class="client-logo-badge">
+                  <svg width="28" height="28" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sub4Sub Pro">
+                    <rect width="32" height="32" rx="8" fill="#d97706"/>
+                    <g transform="translate(4, 4)" stroke="#2b1600" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+                      <path d="M13.744 17.736a6 6 0 1 1-7.48-7.48" />
+                      <path d="M15 6h1v4" />
+                      <path d="m6.134 14.768.866-.5 2 3.464" />
+                      <circle cx="16" cy="8" r="6" />
+                    </g>
+                  </svg>
+                  <span style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 1.15rem; font-weight: 800; color: #d97706; letter-spacing: -0.01em;">Sub4Sub<span style="color: #0f172a; font-weight: 700;">Pro</span></span>
+                </div>
+              </div>
+
+              <!-- Concepft -->
+              <div class="client-logo-item">
+                <div class="client-logo-badge">
+                  <svg viewBox="0 0 32 32" style="width: 28px; height: 28px;" role="img" aria-label="Concepft">
+                    <defs>
+                      <linearGradient id="cf_grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#7c3aed" />
+                        <stop offset="50%" stop-color="#d946ef" />
+                        <stop offset="100%" stop-color="#f97316" />
+                      </linearGradient>
+                    </defs>
+                    <rect width="32" height="32" rx="8" fill="url(#cf_grad2)" />
+                    <text x="16" y="22.5" text-anchor="middle" fill="#ffffff" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="18" font-weight="800">C</text>
+                  </svg>
+                  <span style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 1.25rem; font-weight: 800; letter-spacing: -0.02em; background: linear-gradient(to right, #7c3aed, #d946ef, #f97316); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Concepft</span>
+                </div>
+              </div>
+
+              <!-- LiiLab -->
+              <div class="client-logo-item">
+                <div class="client-logo-badge">
+                  <img src="liilab-logo.png" alt="LiiLab" style="height: 30px; width: auto;" loading="lazy" />
+                  <span style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 1.25rem; font-weight: 800; color: #1e293b; letter-spacing: -0.02em;">Lii<span style="color: #2563eb;">Lab</span></span>
+                </div>
+              </div>
+
+              <!-- Acadion -->
+              <div class="client-logo-item">
+                <img src="acadion-logo.webp" alt="Acadion" class="client-logo-img" loading="lazy" />
+              </div>
+
+              <!-- Duplicate Set for continuous loop (Row 2) -->
+              <div class="client-logo-item" aria-hidden="true">
+                <div class="client-logo-badge">
+                  <img src="onepte-logo.png" alt="OnePTE" style="height: 30px; width: auto;" loading="lazy" />
+                  <span style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 1.2rem; font-weight: 800; color: #0f172a; letter-spacing: -0.02em;">One<span style="color: #2563eb;">PTE</span></span>
+                </div>
+              </div>
+              <div class="client-logo-item" aria-hidden="true">
+                <div class="client-logo-badge">
+                  <svg width="28" height="28" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" role="img">
+                    <rect width="32" height="32" rx="8" fill="#d97706"/>
+                    <g transform="translate(4, 4)" stroke="#2b1600" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+                      <path d="M13.744 17.736a6 6 0 1 1-7.48-7.48" />
+                      <path d="M15 6h1v4" />
+                      <path d="m6.134 14.768.866-.5 2 3.464" />
+                      <circle cx="16" cy="8" r="6" />
+                    </g>
+                  </svg>
+                  <span style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 1.15rem; font-weight: 800; color: #d97706; letter-spacing: -0.01em;">Sub4Sub<span style="color: #0f172a; font-weight: 700;">Pro</span></span>
+                </div>
+              </div>
+              <div class="client-logo-item" aria-hidden="true">
+                <div class="client-logo-badge">
+                  <svg viewBox="0 0 32 32" style="width: 28px; height: 28px;" role="img">
+                    <rect width="32" height="32" rx="8" fill="url(#cf_grad2)" />
+                    <text x="16" y="22.5" text-anchor="middle" fill="#ffffff" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="18" font-weight="800">C</text>
+                  </svg>
+                  <span style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 1.25rem; font-weight: 800; letter-spacing: -0.02em; background: linear-gradient(to right, #7c3aed, #d946ef, #f97316); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Concepft</span>
+                </div>
+              </div>
+              <div class="client-logo-item" aria-hidden="true">
+                <div class="client-logo-badge">
+                  <img src="liilab-logo.png" alt="LiiLab" style="height: 30px; width: auto;" loading="lazy" />
+                  <span style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 1.25rem; font-weight: 800; color: #1e293b; letter-spacing: -0.02em;">Lii<span style="color: #2563eb;">Lab</span></span>
+                </div>
+              </div>
+              <div class="client-logo-item" aria-hidden="true">
+                <img src="acadion-logo.webp" alt="Acadion" class="client-logo-img" loading="lazy" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section (Voice From The World) -->
+    <section id="testimonials" class="section testimonials-section">
+      <div class="container">
+        <div class="testimonials-header">
+          <h2 class="testimonials-title">Voice From The World</h2>
+          <p class="testimonials-subtitle">
+            What our clients and partners say after contracting Md. Ashiqur and how his engineering services helped accelerate their products
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- Testimonial 1: USA -->
+          <article class="testimonial-card">
+            <div class="testimonial-quote-icon" aria-hidden="true">
+              <svg width="24" height="20" viewBox="0 0 24 20" fill="none">
+                <path d="M0 12.353C0 5.435 4.57 0.941 10.286 0V4.706C7.314 4.706 5.371 6.824 5.257 9.882H10.286V20H0V12.353ZM13.714 12.353C13.714 5.435 18.286 0.941 24 0V4.706C21.029 4.706 19.086 6.824 18.971 9.882H24V20H13.714V12.353Z" fill="#ff3366"/>
+              </svg>
+            </div>
+            <p class="testimonial-text">
+              Honestly, Md. Ashiqur is the best engineering contractor we've hired in the US. His technical architecture, swift delivery, and transparent communication made complex requirements feel completely effortless.
             </p>
-            <ul class="case-highlights">
-              <li>Scalable architecture handling 150,000+ global active users</li>
-              <li>High-availability cloud infrastructure with zero downtime</li>
-              <li>Optimized user flows and low-latency response times</li>
-            </ul>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar" aria-label="Tyler Vance">
+                <span class="avatar-initials">TV</span>
+              </div>
+              <div class="testimonial-info">
+                <h3 class="testimonial-name">Tyler Vance</h3>
+                <span class="testimonial-role">United States</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonial 2: Canada -->
+          <article class="testimonial-card">
+            <div class="testimonial-quote-icon" aria-hidden="true">
+              <svg width="24" height="20" viewBox="0 0 24 20" fill="none">
+                <path d="M0 12.353C0 5.435 4.57 0.941 10.286 0V4.706C7.314 4.706 5.371 6.824 5.257 9.882H10.286V20H0V12.353ZM13.714 12.353C13.714 5.435 18.286 0.941 24 0V4.706C21.029 4.706 19.086 6.824 18.971 9.882H24V20H13.714V12.353Z" fill="#ff3366"/>
+              </svg>
+            </div>
+            <p class="testimonial-text">
+              We contracted Md. Ashiqur to build our enterprise workflow automation and database systems. His proactive problem-solving eliminated months of operational debt and gave our Toronto team 100% confidence in scaling.
+            </p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar" aria-label="Claire Tremblay">
+                <span class="avatar-initials">CT</span>
+              </div>
+              <div class="testimonial-info">
+                <h3 class="testimonial-name">Claire Tremblay</h3>
+                <span class="testimonial-role">Canada</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonial 3: Australia -->
+          <article class="testimonial-card">
+            <div class="testimonial-quote-icon" aria-hidden="true">
+              <svg width="24" height="20" viewBox="0 0 24 20" fill="none">
+                <path d="M0 12.353C0 5.435 4.57 0.941 10.286 0V4.706C7.314 4.706 5.371 6.824 5.257 9.882H10.286V20H0V12.353ZM13.714 12.353C13.714 5.435 18.286 0.941 24 0V4.706C21.029 4.706 19.086 6.824 18.971 9.882H24V20H13.714V12.353Z" fill="#ff3366"/>
+              </svg>
+            </div>
+            <p class="testimonial-text">
+              Ashiqur's consulting and full-stack contractor services were a game-changer for our SaaS rollout. The codebase was cleanly architected, performance was lightning fast, and every single milestone was delivered ahead of schedule.
+            </p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar" aria-label="Lachlan Murray">
+                <span class="avatar-initials">LM</span>
+              </div>
+              <div class="testimonial-info">
+                <h3 class="testimonial-name">Lachlan Murray</h3>
+                <span class="testimonial-role">Australia</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonial 4: USA -->
+          <article class="testimonial-card">
+            <div class="testimonial-quote-icon" aria-hidden="true">
+              <svg width="24" height="20" viewBox="0 0 24 20" fill="none">
+                <path d="M0 12.353C0 5.435 4.57 0.941 10.286 0V4.706C7.314 4.706 5.371 6.824 5.257 9.882H10.286V20H0V12.353ZM13.714 12.353C13.714 5.435 18.286 0.941 24 0V4.706C21.029 4.706 19.086 6.824 18.971 9.882H24V20H13.714V12.353Z" fill="#ff3366"/>
+              </svg>
+            </div>
+            <p class="testimonial-text">
+              We previously struggled with subpar freelance developers, but collaborating with Md. Ashiqur made an immediate difference. He takes true ownership of the product and is hands-down the most reliable contractor we have partnered with.
+            </p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar" aria-label="Marcus Hayes">
+                <span class="avatar-initials">MH</span>
+              </div>
+              <div class="testimonial-info">
+                <h3 class="testimonial-name">Marcus Hayes</h3>
+                <span class="testimonial-role">United States</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonial 5: Australia -->
+          <article class="testimonial-card">
+            <div class="testimonial-quote-icon" aria-hidden="true">
+              <svg width="24" height="20" viewBox="0 0 24 20" fill="none">
+                <path d="M0 12.353C0 5.435 4.57 0.941 10.286 0V4.706C7.314 4.706 5.371 6.824 5.257 9.882H10.286V20H0V12.353ZM13.714 12.353C13.714 5.435 18.286 0.941 24 0V4.706C21.029 4.706 19.086 6.824 18.971 9.882H24V20H13.714V12.353Z" fill="#ff3366"/>
+              </svg>
+            </div>
+            <p class="testimonial-text">
+              I’m really impressed with Ashiqur’s technical versatility as an external contractor. From cloud deployments and API integrations to custom UI, his explanations were crystal clear and his solutions directly solved our business hurdles.
+            </p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar" aria-label="James Hackles">
+                <span class="avatar-initials">JH</span>
+              </div>
+              <div class="testimonial-info">
+                <h3 class="testimonial-name">James Hackles</h3>
+                <span class="testimonial-role">Australia</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonial 6: Canada -->
+          <article class="testimonial-card">
+            <div class="testimonial-quote-icon" aria-hidden="true">
+              <svg width="24" height="20" viewBox="0 0 24 20" fill="none">
+                <path d="M0 12.353C0 5.435 4.57 0.941 10.286 0V4.706C7.314 4.706 5.371 6.824 5.257 9.882H10.286V20H0V12.353ZM13.714 12.353C13.714 5.435 18.286 0.941 24 0V4.706C21.029 4.706 19.086 6.824 18.971 9.882H24V20H13.714V12.353Z" fill="#ff3366"/>
+              </svg>
+            </div>
+            <p class="testimonial-text">
+              Md. Ashiqur’s precision and engineering standards were just what our project needed. His contract support allowed us to launch smoothly with zero downtime. He makes sophisticated development structured and stress-free.
+            </p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar" aria-label="Devon Roy">
+                <span class="avatar-initials">DR</span>
+              </div>
+              <div class="testimonial-info">
+                <h3 class="testimonial-name">Devon Roy</h3>
+                <span class="testimonial-role">Canada</span>
+              </div>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section contact-section">
-      <div class="container contact-container">
-        <div class="contact-header">
-          <h2 class="contact-title">Ready to upgrade your digital presence?</h2>
-          <p class="contact-subtitle">
-            Let’s discuss your operational bottlenecks and how custom software can unlock growth for your business.
-          </p>
+    <!-- Pre-Footer CTA Banner (OneIELTS Style Floating Banner) -->
+    <section id="contact" class="cta-banner-section">
+      <div class="container">
+        <div class="cta-banner-card">
+          <!-- Ambient decorative wave graphic -->
+          <div class="banner-waves" aria-hidden="true">
+            <span class="wave-shape wave-1"></span>
+            <span class="wave-shape wave-2"></span>
+            <span class="wave-shape wave-3"></span>
+          </div>
 
-          <div class="direct-contact-methods">
-            <a href="https://wa.me/ashiqur.dev" target="_blank" rel="noopener noreferrer" class="contact-pill whatsapp-pill">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
-              </svg>
-              <span>Chat on WhatsApp</span>
-            </a>
+          <div class="cta-banner-content">
+            <h2 class="cta-banner-title">Ready to upgrade your digital presence?</h2>
+            <p class="cta-banner-subtitle">
+              Let’s discuss your operational bottlenecks and how custom software can unlock growth for your business.
+            </p>
+            <div class="cta-banner-actions">
+              <a href="https://wa.me/ashiqur.dev" target="_blank" rel="noopener noreferrer" class="btn btn-primary-cta">
+                <span>Chat on WhatsApp</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </section>
   </main>
 
+  <!-- Footer (OneIELTS Dark Theme Multi-Column System) -->
   <footer class="site-footer">
-    <div class="container footer-bottom">
-      <p>&copy; 2026 Md. Ashiqur Rahman Naeem. All rights reserved.</p>
+    <div class="container footer-container">
+      <div class="footer-grid">
+        <!-- App / Quick Action Card -->
+        <div class="footer-widget app-download-card">
+          <h3 class="widget-title">Connect &amp; Collaborate</h3>
+          <p class="widget-desc">Fast responses, straightforward technical consultation.</p>
+          <div class="store-buttons">
+            <a href="https://wa.me/ashiqur.dev" target="_blank" rel="noopener noreferrer" class="store-btn">
+              <span class="store-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                </svg>
+              </span>
+              <div class="store-text">
+                <span class="store-sub">Direct Line</span>
+                <span class="store-name">WhatsApp Chat</span>
+              </div>
+            </a>
+            <a href="mailto:contact@ashiqur.dev" class="store-btn">
+              <span class="store-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                  <polyline points="22,6 12,13 2,6"/>
+                </svg>
+              </span>
+              <div class="store-text">
+                <span class="store-sub">Send Email</span>
+                <span class="store-name">Get Scoping Doc</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="social-wrapper">
+            <span class="social-label">Follow &amp; Connect</span>
+            <div class="social-links">
+              <a href="https://github.com/7ij" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+              </a>
+              <a href="https://linkedin.com/in/7ij" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Links Column 1 -->
+        <div class="footer-widget">
+          <h4 class="footer-heading">Services</h4>
+          <ul class="footer-nav">
+            <li><a href="#services">Custom Mobile Apps</a></li>
+            <li><a href="#services">High-Converting Websites</a></li>
+            <li><a href="#services">E-Commerce Systems</a></li>
+            <li><a href="#services">Connected Hardware (IoT)</a></li>
+            <li><a href="#services">AI &amp; Workflow Automation</a></li>
+          </ul>
+        </div>
+
+        <!-- Links Column 2 -->
+        <div class="footer-widget">
+          <h4 class="footer-heading">Selected Work &amp; Plans</h4>
+          <ul class="footer-nav">
+            <li><a href="#portfolio">Swadeshi Platform</a></li>
+            <li><a href="#portfolio">OneIELTS Global App</a></li>
+            <li><a href="#portfolio">Healthcare Sync Engine</a></li>
+            <li><a href="#pricing">Starting Investment</a></li>
+            <li><a href="#portfolio">Case Study Archive</a></li>
+          </ul>
+        </div>
+
+        <!-- Links Column 3: Quick Info & Direct Contact -->
+        <div class="footer-widget">
+          <h4 class="footer-heading">Contact &amp; Details</h4>
+          <div class="footer-contact-details">
+            <p><strong>Engineer:</strong> Md. Ashiqur Rahman Naeem</p>
+            <p><strong>Email:</strong> contact@ashiqur.dev</p>
+            <p><strong>Response Time:</strong> Within 12-24 hours</p>
+            <p><strong>Location:</strong> Available globally (Remote)</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Disclaimer & Sub-footer row -->
+      <div class="footer-sub-bottom">
+        <div class="footer-legal-bar">
+          <div class="legal-links">
+            <a href="#">Privacy Policy</a>
+            <span>|</span>
+            <a href="#">Terms of Service</a>
+          </div>
+          <p class="copyright-text">&copy; 2026 Md. Ashiqur Rahman Naeem. All rights reserved.</p>
+        </div>
+      </div>
     </div>
+
+    <!-- Scroll to top floating pill button -->
+    <a href="#" class="scroll-top-btn" aria-label="Back to top">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="12" y1="19" x2="12" y2="5"></line>
+        <polyline points="5 12 12 5 19 12"></polyline>
+      </svg>
+    </a>
   </footer>
+
+  <!-- Works Side Panel Overlay & Drawer -->
+  <div class="sidepanel-overlay" id="panelOverlay" aria-hidden="true"></div>
+  
+  <aside class="sidepanel-drawer" id="workHistoryPanel" role="dialog" aria-modal="true" aria-labelledby="sidepanelTitle" aria-hidden="true">
+    <div class="sidepanel-header">
+      <button type="button" class="sidepanel-close-btn" id="closeWorkHistoryPanel" aria-label="Close panel">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="sidepanel-title-group">
+        <span class="sidepanel-badge">Career &amp; Production Track Record</span>
+        <h2 id="sidepanelTitle" class="sidepanel-title">Previous Works &amp; Engineering Experience</h2>
+        <p class="sidepanel-subtitle">Overview of professional roles, deployed production systems, and engineering achievements.</p>
+      </div>
+    </div>
+
+    <div class="sidepanel-body">
+      <!-- Section 1: Professional Experience -->
+      <section class="panel-section">
+        <div class="panel-section-header">
+          <span class="panel-section-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </span>
+          <h3 class="panel-section-title">Employment &amp; Roles</h3>
+        </div>
+
+        <div class="panel-timeline">
+          <!-- Role 1 -->
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-top">
+                <h4 class="timeline-role">Software Engineer</h4>
+                <span class="timeline-company">LiiLab &bull; Sylhet</span>
+              </div>
+              <p class="timeline-desc">
+                Engineered core features for the <strong>OneIELTS</strong> mobile app using Flutter and Clean Architecture, including an XML-to-dynamic-widget rendering engine powering exams for <strong>150K+ users worldwide</strong>. Refactored the <strong>Sub4Sub</strong> Android app using Kotlin, XML, and Clean Architecture with automated WebView JavaScript interfaces serving <strong>1M+ users</strong>.
+              </p>
+              <div class="timeline-tags">
+                <span class="panel-tag">Flutter</span>
+                <span class="panel-tag">Android / Kotlin</span>
+                <span class="panel-tag">Clean Architecture</span>
+                <span class="panel-tag">Scale: 1M+ Users</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Role 2 -->
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-top">
+                <h4 class="timeline-role">Android Developer</h4>
+                <span class="timeline-company">Concepft &bull; Remote</span>
+              </div>
+              <p class="timeline-desc">
+                Developed the complete Android application <strong>&ldquo;Voice Changer &ndash; Voice Effects&rdquo;</strong> from scratch using Kotlin, XML, C++, and FMOD. Implemented real-time digital signal processing (DSP) and native C++ audio processing algorithms for ultra-low-latency voice transformation.
+              </p>
+              <div class="timeline-tags">
+                <span class="panel-tag">Android Kotlin</span>
+                <span class="panel-tag">C++ Audio Engine</span>
+                <span class="panel-tag">FMOD</span>
+                <span class="panel-tag">NDK / JNI</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Role 3 -->
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-top">
+                <h4 class="timeline-role">Flutter Developer</h4>
+                <span class="timeline-company">Hackules Inc. &bull; Remote</span>
+              </div>
+              <p class="timeline-desc">
+                Built a modular cross-platform mobile learning application with structured courses, interactive quizzes, video playback, and real-time offline-first progress syncing via RESTful microservices.
+              </p>
+              <div class="timeline-tags">
+                <span class="panel-tag">Flutter</span>
+                <span class="panel-tag">Dart</span>
+                <span class="panel-tag">REST APIs</span>
+                <span class="panel-tag">State Management</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Role 4 -->
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-top">
+                <h4 class="timeline-role">Flutter Developer</h4>
+                <span class="timeline-company">Swadeshi Branding Ltd &bull; Remote</span>
+              </div>
+              <p class="timeline-desc">
+                Designed and rolled out the dual-sided Swadeshi E-Commerce mobile ecosystem (Customer shopping app &amp; Vendor merchant portal). Handled catalog sync, payment processing, push notifications, and store management.
+              </p>
+              <div class="timeline-tags">
+                <span class="panel-tag">Flutter</span>
+                <span class="panel-tag">E-Commerce</span>
+                <span class="panel-tag">Merchant Portal</span>
+                <span class="panel-tag">Payment APIs</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Section 2: Featured Software & Hardware Projects -->
+      <section class="panel-section">
+        <div class="panel-section-header">
+          <span class="panel-section-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          </span>
+          <h3 class="panel-section-title">Key Engineered Works &amp; Repositories</h3>
+        </div>
+
+        <div class="panel-cards-grid">
+          <!-- Card 1 -->
+          <div class="panel-work-card">
+            <div class="panel-work-head">
+              <h4 class="panel-work-title">NinjaHonda Odometer</h4>
+              <span class="panel-work-status status-live">Open Source</span>
+            </div>
+            <p class="panel-work-desc">
+              Precision digital speedometer &amp; trip odometer system built for real motorcycle &amp; automotive telematics with custom sensor inputs and persistent flash storage.
+            </p>
+            <div class="panel-work-meta">
+              <span class="panel-tag">C++ / Embedded</span>
+              <span class="panel-tag">Hardware Telemetry</span>
+            </div>
+            <a href="https://github.com/7ij/ninjahonda" target="_blank" rel="noopener noreferrer" class="panel-work-link">
+              <span>View Repository on GitHub</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="panel-work-card">
+            <div class="panel-work-head">
+              <h4 class="panel-work-title">Swadeshi Multi-Vendor Platform</h4>
+              <span class="panel-work-status status-deployed">Client Production</span>
+            </div>
+            <p class="panel-work-desc">
+              End-to-end multi-tenant marketplace platform with inventory synchronisation, vendor accounting ledger, and high-conversion mobile checkouts.
+            </p>
+            <div class="panel-work-meta">
+              <span class="panel-tag">Flutter Cross-Platform</span>
+              <span class="panel-tag">Node / REST API</span>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="panel-work-card">
+            <div class="panel-work-head">
+              <h4 class="panel-work-title">Voice Changer &amp; Audio DSP</h4>
+              <span class="panel-work-status status-deployed">Google Play</span>
+            </div>
+            <p class="panel-work-desc">
+              Native Android real-time audio manipulation suite with low-latency DSP filters (reverb, pitch shift, flanger, robot) engineered via C++ and FMOD.
+            </p>
+            <div class="panel-work-meta">
+              <span class="panel-tag">Kotlin</span>
+              <span class="panel-tag">C++ NDK</span>
+              <span class="panel-tag">FMOD Studio</span>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="panel-work-card">
+            <div class="panel-work-head">
+              <h4 class="panel-work-title">OneIELTS Dynamic Exam System</h4>
+              <span class="panel-work-status status-deployed">150K+ Users</span>
+            </div>
+            <p class="panel-work-desc">
+              High-throughput mock exam engine parsing standardized QTI-XML files into responsive Flutter widgets with sub-second question generation and offline persistence.
+            </p>
+            <div class="panel-work-meta">
+              <span class="panel-tag">Flutter</span>
+              <span class="panel-tag">XML Engine</span>
+              <span class="panel-tag">Offline Sync</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 3: Academic Qualifications -->
+      <section class="panel-section">
+        <div class="panel-section-header">
+          <span class="panel-section-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          </span>
+          <h3 class="panel-section-title">Education &amp; Background</h3>
+        </div>
+        <div class="panel-education-list">
+          <div class="panel-edu-item">
+            <div class="edu-degree">Master of Science in Computer Science and Engineering</div>
+            <div class="edu-desc">Advanced software architectures, distributed systems, and algorithmic optimization.</div>
+          </div>
+          <div class="panel-edu-item">
+            <div class="edu-degree">Bachelor of Science in Mathematics</div>
+            <div class="edu-desc">Rigorous foundation in analytical logic, mathematical modeling, and problem-solving.</div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="sidepanel-footer">
+      <div class="sidepanel-footer-inner">
+        <div>
+          <span class="footer-prompt-title">Need a custom solution like these?</span>
+          <p class="footer-prompt-sub">Direct engineer consultation &bull; No middleman</p>
+        </div>
+        <a href="#contact" class="btn btn-panel-cta" id="panelContactLink">
+          <span>Discuss Your Project</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+      </div>
+    </div>
+  </aside>
 
   <script>
     // Smooth toggling for mobile navigation
@@ -241,6 +2005,215 @@
         });
       });
     }
+
+    // Work History Side Panel Functionality
+    const openPanelBtn = document.getElementById('openWorkHistoryPanel');
+    const closePanelBtn = document.getElementById('closeWorkHistoryPanel');
+    const panelOverlay = document.getElementById('panelOverlay');
+    const workPanel = document.getElementById('workHistoryPanel');
+    const panelContactLink = document.getElementById('panelContactLink');
+
+    function openPanel() {
+      if (!workPanel || !panelOverlay) return;
+      workPanel.classList.add('is-open');
+      panelOverlay.classList.add('is-active');
+      workPanel.setAttribute('aria-hidden', 'false');
+      panelOverlay.setAttribute('aria-hidden', 'false');
+      document.body.classList.add('panel-no-scroll');
+      if (closePanelBtn) closePanelBtn.focus();
+    }
+
+    function closePanel() {
+      if (!workPanel || !panelOverlay) return;
+      workPanel.classList.remove('is-open');
+      panelOverlay.classList.remove('is-active');
+      workPanel.setAttribute('aria-hidden', 'true');
+      panelOverlay.setAttribute('aria-hidden', 'true');
+      document.body.classList.remove('panel-no-scroll');
+      if (openPanelBtn) openPanelBtn.focus();
+    }
+
+    if (openPanelBtn) {
+      openPanelBtn.addEventListener('click', openPanel);
+    }
+    if (closePanelBtn) {
+      closePanelBtn.addEventListener('click', closePanel);
+    }
+    if (panelOverlay) {
+      panelOverlay.addEventListener('click', closePanel);
+    }
+    if (panelContactLink) {
+      panelContactLink.addEventListener('click', closePanel);
+    }
+
+    // Close on ESC key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && workPanel && workPanel.classList.contains('is-open')) {
+        closePanel();
+      }
+    });
+
+    // ==========================================
+    // Interactive Services Carousel Logic
+    // ==========================================
+    (function initServicesCarousel() {
+      const track = document.getElementById('servicesSlidesTrack');
+      const slides = document.querySelectorAll('.service-slide');
+      const thumbs = document.querySelectorAll('.service-thumb-card');
+      const prevBtn = document.getElementById('servicesCarouselPrev');
+      const nextBtn = document.getElementById('servicesCarouselNext');
+      const carouselWrapper = document.getElementById('servicesCarousel');
+
+      if (!track || slides.length === 0) return;
+
+      let currentIndex = 0;
+      const totalSlides = slides.length;
+      let autoplayTimer = null;
+
+      function goToSlide(index, userInitiated = false) {
+        if (index < 0) {
+          currentIndex = totalSlides - 1;
+        } else if (index >= totalSlides) {
+          currentIndex = 0;
+        } else {
+          currentIndex = index;
+        }
+
+        // Shift slide track
+        track.style.transform = `translateX(-${currentIndex * 100}%)`;
+
+        // Update active class on slides
+        slides.forEach((slide, i) => {
+          if (i === currentIndex) {
+            slide.classList.add('active');
+          } else {
+            slide.classList.remove('active');
+          }
+        });
+
+        // Update active class and accessibility on thumbnails
+        thumbs.forEach((thumb, i) => {
+          if (i === currentIndex) {
+            thumb.classList.add('active');
+            thumb.setAttribute('aria-selected', 'true');
+            // Only scroll the thumbnail bar horizontally if the user clicked or interacted with it
+            if (userInitiated) {
+              const thumbsContainer = thumb.parentElement;
+              if (thumbsContainer && thumbsContainer.scrollWidth > thumbsContainer.clientWidth) {
+                const thumbLeft = thumb.offsetLeft;
+                const thumbWidth = thumb.offsetWidth;
+                const containerWidth = thumbsContainer.clientWidth;
+                thumbsContainer.scrollTo({
+                  left: thumbLeft - (containerWidth / 2) + (thumbWidth / 2),
+                  behavior: 'smooth'
+                });
+              }
+            }
+          } else {
+            thumb.classList.remove('active');
+            thumb.setAttribute('aria-selected', 'false');
+          }
+        });
+
+        if (userInitiated) {
+          resetAutoplay();
+        }
+      }
+
+      // Next / Prev actions
+      if (nextBtn) {
+        nextBtn.addEventListener('click', () => goToSlide(currentIndex + 1, true));
+      }
+      if (prevBtn) {
+        prevBtn.addEventListener('click', () => goToSlide(currentIndex - 1, true));
+      }
+
+      // Thumbnail click actions
+      thumbs.forEach((thumb) => {
+        thumb.addEventListener('click', () => {
+          const target = parseInt(thumb.getAttribute('data-target'), 10);
+          if (!isNaN(target)) {
+            goToSlide(target, true);
+          }
+        });
+      });
+
+      // Keyboard navigation (ArrowLeft & ArrowRight) only when actively focused by user
+      if (carouselWrapper) {
+        carouselWrapper.addEventListener('keydown', (e) => {
+          if (e.key === 'ArrowRight') {
+            goToSlide(currentIndex + 1, true);
+          } else if (e.key === 'ArrowLeft') {
+            goToSlide(currentIndex - 1, true);
+          }
+        });
+      }
+
+      // Touch / Swipe support for mobile
+      let touchStartX = 0;
+      let touchEndX = 0;
+
+      track.addEventListener('touchstart', (e) => {
+        touchStartX = e.changedTouches[0].screenX;
+      }, { passive: true });
+
+      track.addEventListener('touchend', (e) => {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipe();
+      }, { passive: true });
+
+      function handleSwipe() {
+        const threshold = 40;
+        if (touchEndX < touchStartX - threshold) {
+          goToSlide(currentIndex + 1, true); // swipe left -> next
+        } else if (touchEndX > touchStartX + threshold) {
+          goToSlide(currentIndex - 1, true); // swipe right -> prev
+        }
+      }
+
+      // Autoplay cycle every 7 seconds, pauses on hover or when not visible in viewport
+      function startAutoplay() {
+        if (autoplayTimer) return;
+        autoplayTimer = setInterval(() => {
+          goToSlide(currentIndex + 1, false);
+        }, 7000);
+      }
+
+      function stopAutoplay() {
+        if (autoplayTimer) {
+          clearInterval(autoplayTimer);
+          autoplayTimer = null;
+        }
+      }
+
+      function resetAutoplay() {
+        stopAutoplay();
+        startAutoplay();
+      }
+
+      if (carouselWrapper) {
+        carouselWrapper.addEventListener('mouseenter', stopAutoplay);
+        carouselWrapper.addEventListener('mouseleave', startAutoplay);
+        carouselWrapper.addEventListener('focusin', stopAutoplay);
+        carouselWrapper.addEventListener('focusout', startAutoplay);
+
+        // Pause autoplay if the carousel is scrolled off-screen
+        if ('IntersectionObserver' in window) {
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                startAutoplay();
+              } else {
+                stopAutoplay();
+              }
+            });
+          }, { threshold: 0.2 });
+          observer.observe(carouselWrapper);
+        } else {
+          startAutoplay();
+        }
+      }
+    })();
   </script>
 </body>
 </html>
