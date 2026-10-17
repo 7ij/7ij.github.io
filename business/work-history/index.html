@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <base target="_parent">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Featured Work | Ashiqur.dev</title>
+    <meta name="description" content="Featured digital products and client case studies.">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="icon" href="./favicon.svg">
+    <link rel="stylesheet" href="./assets/index-RUfyDKrw.css">
+    <script defer src="./assets/index-W5vStq9z.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      function notifyHeight() {
+        var root = document.getElementById('root');
+        var height = root && root.offsetHeight > 0 ? root.offsetHeight : document.body.scrollHeight;
+        if (height > 0) {
+          try {
+            window.parent.postMessage({ type: 'workHistoryHeight', height: height }, '*');
+          } catch (e) {}
+        }
+      }
+      window.addEventListener('load', notifyHeight);
+      window.addEventListener('resize', notifyHeight);
+      if (typeof MutationObserver !== 'undefined') {
+        var observer = new MutationObserver(notifyHeight);
+        observer.observe(document.body, { childList: true, subtree: true });
+      }
+      setTimeout(notifyHeight, 200);
+      setTimeout(notifyHeight, 1000);
+    </script>
+  </body>
+</html>
