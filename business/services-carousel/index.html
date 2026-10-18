@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <base target="_parent">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services | Ashiqur.dev</title>
+    <meta name="description" content="Custom web, mobile, e-commerce, IoT, and AI automation solutions for growing businesses.">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="icon" href="./favicon.svg">
+    <link rel="stylesheet" href="./assets/index-Ctnscw9z.css">
+    <script defer src="./assets/index-B6yfNjtR.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      function notifyHeight() {
+        var root = document.getElementById('root');
+        var height = root && root.offsetHeight > 0 ? root.offsetHeight : document.body.scrollHeight;
+        if (height > 0) {
+          try {
+            window.parent.postMessage({ type: 'servicesHeight', height: height }, '*');
+          } catch (e) {}
+        }
+      }
+      window.addEventListener('load', notifyHeight);
+      window.addEventListener('resize', notifyHeight);
+      if (typeof MutationObserver !== 'undefined') {
+        var observer = new MutationObserver(notifyHeight);
+        observer.observe(document.body, { childList: true, subtree: true });
+      }
+      setTimeout(notifyHeight, 150);
+      setTimeout(notifyHeight, 600);
+      setTimeout(notifyHeight, 1500);
+    </script>
+  </body>
+</html>
